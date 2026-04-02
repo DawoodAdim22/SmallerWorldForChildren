@@ -1,0 +1,2714 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SmallerWorldForChildren.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ 
+    <meta charset="UTF-8"> 
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        	
+<title>Online Ticketing &#8211; Small World Nigeria</title>
+<meta name='robots' content='max-image-preview:large' />
+<script>                function apbct_attach_event_handler__backend(elem, event, callback) { if (typeof window.addEventListener === "function") elem.addEventListener(event, callback); else elem.attachEvent(event, callback); } apbct_attach_event_handler__backend(document, 'DOMContentLoaded', function () { if (typeof apbctLocalStorage === "object" && ctPublic.data__key_is_ok) { apbctLocalStorage.set('ct_checkjs', 'b7496e1a61851b52bd422bada5f3c5126724406c15abbbc8407f183a8d92feb1', true); } else { console.log('APBCT ERROR: apbctLocalStorage object is not loaded.'); } });    </script><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Small World Nigeria &raquo; Feed" href="https://www.iwocnigeria.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Small World Nigeria &raquo; Comments Feed" href="https://www.iwocnigeria.org/comments/feed/" />
+<script type="text/javascript">
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/www.iwocnigeria.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1" } };
+    /*! This file is auto-generated */
+    !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<%--	<link rel='stylesheet' id='hugeit-lightbox-css-css' href='https://www.iwocnigeria.org/wp-content/plugins/lightbox/css/frontend/lightbox.css?ver=6.1.1' type='text/css' media='all' />--%>
+    <link href="Content/lightbox.css" rel="stylesheet" />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.iwocnigeria.org/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://www.iwocnigeria.org/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ct_public_css-css' href='https://www.iwocnigeria.org/wp-content/plugins/cleantalk-spam-protect/css/cleantalk-public.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.iwocnigeria.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_donations_style-css' href='https://www.iwocnigeria.org/wp-content/plugins/nd-donations/assets/css/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_options_style-css' href="fonts/css/style.css" type='text/css' media='all' />
+<link rel='stylesheet' id='nd_options_font_family_h-css' href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C700&#038;ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_options_font_family_p-css' href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C700&#038;ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nd_options_font_family_third-css' href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C700&#038;ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css' href='https://www.iwocnigeria.org/wp-content/plugins/responsive-lightbox/assets/swipebox/swipebox.min.css?ver=2.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.iwocnigeria.org/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.3.1' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='nicdark-style-css' href='https://www.iwocnigeria.org/wp-content/themes/charityfoundation/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nicdark-fonts-css' href='//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C700&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://www.iwocnigeria.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css' href='https://www.iwocnigeria.org/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mpc-massive-style-css' href='https://www.iwocnigeria.org/wp-content/plugins/mpc-massive/assets/css/mpc-styles.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-add-custom-css-css' href='https://www.iwocnigeria.org?display_custom_css=css&#038;ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/lightbox/js/frontend/froogaloop2.min.js?ver=6.1.1' id='hugeit-froogaloop-js-js'></script>
+<script type='text/javascript' id='ct_public_functions-js-extra'>
+    /* <![CDATA[ */
+    var ctPublicFunctions = { "_ajax_nonce": "b8abd894c4", "_rest_nonce": "199f17eb53", "_ajax_url": "\/wp-admin\/admin-ajax.php", "_rest_url": "https:\/\/www.iwocnigeria.org\/wp-json\/", "data__cookies_type": "native", "data__ajax_type": "rest", "text__wait_for_decoding": "Decoding the contact data, let us a few seconds to finish. Anti-Spam by CleanTalk.", "cookiePrefix": "" };
+    var ctPublic = { "settings__forms__check_internal": "0", "settings__forms__check_external": "0", "blog_home": "https:\/\/www.iwocnigeria.org\/", "pixel__setting": "0", "pixel__enabled": "", "pixel__url": null, "data__email_check_before_post": "1", "data__cookies_type": "native", "data__key_is_ok": "1", "data__visible_fields_required": "1", "data__to_local_storage": [] };
+    /* ]]> */
+</script>
+<%--<script type='text/javascript' data-pagespeed-no-defer src='https://www.iwocnigeria.org/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.1' id='ct_public_functions-js'></script>--%>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/responsive-lightbox/assets/swipebox/jquery.swipebox.min.js?ver=2.4.3' id='responsive-lightbox-swipebox-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/responsive-lightbox/assets/infinitescroll/infinite-scroll.pkgd.min.js?ver=6.1.1' id='responsive-lightbox-infinite-scroll-js'></script>
+<script type='text/javascript' id='responsive-lightbox-js-extra'>
+    /* <![CDATA[ */
+    var rlArgs = { "script": "swipebox", "selector": "lightbox", "customEvents": "", "activeGalleries": "1", "animation": "1", "hideCloseButtonOnMobile": "0", "removeBarsOnMobile": "0", "hideBars": "1", "hideBarsDelay": "5000", "videoMaxWidth": "1080", "useSVG": "1", "loopAtEnd": "0", "woocommerce_gallery": "0", "ajaxurl": "https:\/\/www.iwocnigeria.org\/wp-admin\/admin-ajax.php", "nonce": "d809f611e4", "preview": "false", "postId": "15", "scriptExtension": "" };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/responsive-lightbox/js/front.js?ver=2.4.3' id='responsive-lightbox-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.3.1' id='tp-tools-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.3.1' id='revmin-js'></script>
+<link rel="https://api.w.org/" href="https://www.iwocnigeria.org/wp-json/" /><link rel="alternate" type="application/json" href="https://www.iwocnigeria.org/wp-json/wp/v2/pages/15" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.iwocnigeria.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.iwocnigeria.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel="canonical" href="https://www.iwocnigeria.org/contact-us/" />
+<link rel='shortlink' href='https://www.iwocnigeria.org/?p=15' />
+<link rel="alternate" type="application/json+oembed" href="https://www.iwocnigeria.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.iwocnigeria.org%2Fcontact-us%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.iwocnigeria.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.iwocnigeria.org%2Fcontact-us%2F&#038;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- end Simple Custom CSS and JS -->
+
+	<!--download ticket as pdf-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script>
+    function getPDF() {
+        // alert('hi');
+        var HTML_Width = $("#Div_card").width();
+        var HTML_Height = $("#Div_card").height();
+        var top_left_margin = 15;
+        var PDF_Width = HTML_Width + (top_left_margin * 2);
+        var PDF_Height = (PDF_Width * 1.5) + (top_left_margin * 2);
+        var canvas_image_width = HTML_Width;
+        var canvas_image_height = HTML_Height;
+
+        var totalPDFPages = Math.ceil(HTML_Height / PDF_Height);
+
+        html2canvas($("#Div_card")[0], {
+            onrendered: function (canvas) {
+                canvas.getContext('2d');
+
+                console.log(canvas.height + "  " + canvas.width);
+
+
+                var imgData = canvas.toDataURL("image/jpeg", 1.0);
+                var pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
+                pdf.addImage(imgData, 'JPG', top_left_margin, top_left_margin, canvas_image_width, canvas_image_height);
+
+
+                for (var i = 1; i <= totalPDFPages; i++) {
+                    pdf.addPage(PDF_Width, PDF_Height);
+                    pdf.addImage(imgData, 'JPG', top_left_margin, -(PDF_Height * i) + (top_left_margin * 4), canvas_image_width, canvas_image_height);
+                }
+                var n = Date.now();
+                pdf.save("Ticket" + n + ".pdf");
+            }
+        })
+
+    };
+
+
+</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	 <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+        <script type="text/javascript">
+
+            //         function downloadimage() {
+            //             /*var container = document.getElementById("image-wrap");*/ /*specific element on page*/
+            //             var container = document.getElementById("Div_card");; /* full page */
+            //             html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+            //                 var link = document.createElement("a");
+            //                 document.body.appendChild(link);
+            //                 link.download = "html_image.jpg";
+            //                 link.href = canvas.toDataURL();
+            //                 link.target = '_blank';
+            //                 link.click();
+            //             });
+            //}
+
+            //         function downloadimage1(value) {
+            //             /*var container = document.getElementById("image-wrap");*/ /*specific element on page*/
+            //             var container = document.getElementById(value);; /* full page */
+            //             html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+            //                 var link = document.createElement("a");
+            //                 document.body.appendChild(link);
+            //                 // link.download = "html_image.jpg";
+            //                 link.download = value;
+            //                 link.href = canvas.toDataURL();
+            //                 link.target = '_blank';
+            //                 link.click();
+            //             });
+            //}
+
+            function downloadImageusingd2i_1(value) {
+                var container = document.getElementById(value);
+
+                // Use dom-to-image to capture the content
+                domtoimage.toBlob(container)
+                    .then(function (blob) {
+                        // Create a temporary link and trigger the download
+                        var link = document.createElement("a");
+                        link.download = value; // Set the image filename
+                        link.href = window.URL.createObjectURL(blob);
+                        link.click();
+                    })
+                    .catch(function (error) {
+                        console.error("Error capturing image: " + error);
+                    });
+            }
+
+
+            function downloadImageusingd2i(value) {
+                var container = document.getElementById(value);
+
+                html2canvas(container, {
+                    allowTaint: true,
+                    backgroundColor: null // Set the background color to transparent
+                }).then(function (canvas) {
+                    var link = document.createElement("a");
+                    document.body.appendChild(link)
+                        ;
+                    link.download = value + ".png";
+                    link.href = canvas.toDataURL("image/png");
+                    link.target = '_blank';
+                    link.click();
+                });
+            }
+        </script>
+
+	<%--<script type = "text/javascript">
+       function PrintPanel() {
+           var panel = document.getElementById("<%=PnlTicket.ClientID %>");
+           var printWindow = window.open('', '', 'height=235,width=500');
+           printWindow.document.write('<html><head><title>DIV Contents</title>');
+           printWindow.document.write('</head><body >');
+           printWindow.document.write(panel.innerHTML);
+           printWindow.document.write('</body></html>');
+           printWindow.document.close();
+           setTimeout(function () {
+               printWindow.print();
+           }, 500);
+           return false;
+       }
+    </script>--%>
+<!-- start Simple Custom CSS and JS -->
+	 <script>
+         function GFG_Run() {
+             document.getElementById('Input').readOnly
+                 = true;
+
+             document.getElementById("Div_card").innerHTML
+                 = "Read-Only attribute enabled";
+         }
+     </script> 
+<style type="text/css">
+	.parent1 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+.div7 { grid-area: 4 / 1 / 5 / 2; }
+.div8 { grid-area: 4 / 2 / 5 / 3; }
+.div9 { grid-area: 5 / 1 / 6 / 2; }
+.div10 { grid-area: 5 / 2 / 6 / 3; }
+.div11 { grid-area: 6 / 1 / 7 / 2; }
+.div12 { grid-area: 6 / 2 / 7 / 3; }
+
+body {background-image: none !important;}	
+
+.circled {
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		/*display: inline;*/
+		float: left;
+		line-height: 100px;
+    	text-align: center;
+    	margin: 0 20px;
+    	color: #FFF;
+    	font-family: 'Poppins';
+    	font-weight: 700;
+    	font-size: 16px;
+	}
+
+	.platinum {
+		background-color: #e5e4e2;
+	}
+
+	.gold {
+		background-color: #ffd700;
+	}
+
+	.silver {
+		background-color: #c0c0c0;
+	}
+
+	.bronze {
+		background-color: #c9ae5d;
+	}
+
+	.red {
+		background-color: #f00;
+	}
+
+	#sponsor-tabs a:hover {
+		text-decoration: none;
+		/*border: 2px solid #ff2500;*/
+		color: #FFF;
+	}
+
+.nd_donations_section img {max-height:200px}
+.nd_donations_postgrid_causes_single_cause_text {min-height:80px}
+#nd_options_footer_1 {padding: 10px 0 0 0;}
+.nd_options_navigation_2 div li a {color: #000000 !important;}
+#nd_options_shortcode_cf7_5 input[type="text"], #nd_options_shortcode_cf7_5 input[type="email"], #nd_options_shortcode_cf7_5 input[type="url"], #nd_options_shortcode_cf7_5 input[type="tel"], #nd_options_shortcode_cf7_5 input[type="number"], #nd_options_shortcode_cf7_5 input[type="date"], #nd_options_shortcode_cf7_5 input[type="checkbox"], #nd_options_shortcode_cf7_5 input[type="file"], #nd_options_shortcode_cf7_5 textarea, #nd_options_shortcode_cf7_5 label, #nd_options_shortcode_cf7_5 select {border-color: #000000;color: #000000 !important;}
+#start_nicdark_framework {color: #000000;}
+.nd_options_position_absolute {position: relative;}
+.nd_options_text_align_right {text-align: right;margin-top: 20px;}
+
+.nd_donations_postgrid_causes_single_cause_title {display:none}
+.nd_donations_margin_0 {display: none;}
+.nd_donations_height_20 {height: 0px;}</style>
+<!-- end Simple Custom CSS and JS -->
+
+	
+    <style type="text/css">
+
+    	/*green*/
+		.nd_donations_bg_green { background-color: #00baa3; }
+		
+		/*red*/
+		.nd_donations_bg_red { background-color: #d55342; }
+		.nd_donations_single_cause_form_validation_errors { background-color: #d55342; }
+
+		/*greydark*/
+		.nd_donations_bg_greydark { background-color: #444444; }
+		.nd_donations_tabs .ui-tabs-active.ui-state-active { border-bottom: 2px solid #444444; }
+       
+    </style>
+    
+
+
+
+<!--START  for post-->
+<style type="text/css">
+
+    /*sidebar*/
+    .nd_donations_sidebar .widget { margin-bottom: 40px; }
+    .nd_donations_sidebar .widget img, .nd_donations_sidebar .widget select { max-width: 100%; }
+    .nd_donations_sidebar .widget h3 { margin-bottom: 20px; font-weight: normal; }
+
+    /*search*/
+    .nd_donations_sidebar .widget.widget_search input[type="text"] { width: 100%; }
+    .nd_donations_sidebar .widget.widget_search input[type="submit"] { margin-top: 20px; }
+
+    /*list*/
+    .nd_donations_sidebar .widget ul { margin: 0px; padding: 0px; list-style: none; }
+    .nd_donations_sidebar .widget > ul > li { padding: 10px; border-bottom: 1px solid #f1f1f1; }
+    .nd_donations_sidebar .widget > ul > li:last-child { padding-bottom: 0px; border-bottom: 0px solid #f1f1f1; }
+    .nd_donations_sidebar .widget ul li { padding: 10px; }
+    .nd_donations_sidebar .widget ul.children { padding: 10px; }
+    .nd_donations_sidebar .widget ul.children:last-child { padding-bottom: 0px; }
+
+    /*calendar*/
+    .nd_donations_sidebar .widget.widget_calendar table { text-align: center; background-color: #fff; width: 100%; border: 1px solid #f1f1f1; line-height: 20px; }
+    .nd_donations_sidebar .widget.widget_calendar table th { padding: 10px 5px; font-weight: normal; }
+    .nd_donations_sidebar .widget.widget_calendar table td { padding: 10px 5px; }
+    .nd_donations_sidebar .widget.widget_calendar table tbody td a { color: #fff; padding: 5px; border-radius: 0px; }
+    .nd_donations_sidebar .widget.widget_calendar table tfoot td a { color: #fff; background-color: #444444; padding: 5px; border-radius: 0px; font-size: 13px; }
+    .nd_donations_sidebar .widget.widget_calendar table tfoot td { padding-bottom: 20px; }
+    .nd_donations_sidebar .widget.widget_calendar table tfoot td#prev { text-align: right; }
+    .nd_donations_sidebar .widget.widget_calendar table tfoot td#next { text-align: left; }
+    .nd_donations_sidebar .widget.widget_calendar table caption { font-size: 20px; font-weight: normal; background-color: #f9f9f9; padding: 20px; border: 1px solid #f1f1f1; border-bottom: 0px; }
+
+    /*color calendar*/
+    .nd_donations_sidebar .widget.widget_calendar table thead { color: #000000; }
+    .nd_donations_sidebar .widget.widget_calendar table tbody td a { background-color: #00baa3; }
+    .nd_donations_sidebar .widget.widget_calendar table caption { color: #000000; font-family: 'Poppins', sans-serif; }
+
+    /*menu*/
+    .nd_donations_sidebar .widget div ul { margin: 0px; padding: 0px; list-style: none; }
+    .nd_donations_sidebar .widget div > ul > li { padding: 10px; border-bottom: 1px solid #f1f1f1; }
+    .nd_donations_sidebar .widget div > ul > li:last-child { padding-bottom: 0px; border-bottom: 0px solid #f1f1f1; }
+    .nd_donations_sidebar .widget div ul li { padding: 10px; }
+    .nd_donations_sidebar .widget div ul.sub-menu { padding: 10px; }
+    .nd_donations_sidebar .widget div ul.sub-menu:last-child { padding-bottom: 0px; }
+
+    /*tag*/
+    .nd_donations_sidebar .widget.widget_tag_cloud a { padding: 5px 10px; border: 1px solid #f1f1f1; border-radius: 0px; display: inline-block; margin: 5px; margin-left: 0px; font-size: 13px !important; line-height: 20px; }
+
+</style>
+<!--END css for post-->
+	
+    <style type="text/css">
+
+    	/*START FONTS FAMILY*/
+    	.nd_options_customizer_fonts .nd_options_first_font,
+    	.nd_options_customizer_fonts h1,
+    	.nd_options_customizer_fonts h2,
+    	.nd_options_customizer_fonts h3,
+    	.nd_options_customizer_fonts h4,
+    	.nd_options_customizer_fonts h5,
+    	.nd_options_customizer_fonts h6
+    	{ font-family: 'Poppins', sans-serif; }
+
+    	.nd_options_customizer_fonts,
+    	.nd_options_customizer_fonts .nd_options_second_font,
+    	.nd_options_customizer_fonts p,
+    	.nd_options_customizer_fonts a,
+    	.nd_options_customizer_fonts select,
+    	.nd_options_customizer_fonts textarea,
+    	.nd_options_customizer_fonts label,
+    	.nd_options_customizer_fonts input,
+    	#start_nicdark_framework
+    	{ font-family: 'Poppins', sans-serif; }
+
+    	.nd_options_customizer_fonts .nd_options_second_font_important
+    	{ font-family: 'Poppins', sans-serif !important; }
+
+    	.nd_options_customizer_fonts .nd_options_third_font
+    	{ font-family: 'Poppins', sans-serif; }
+
+
+    	/*START FONTS COLOR*/
+    	.nd_options_customizer_fonts .nd_options_color_greydark,
+    	.nd_options_customizer_fonts h1,
+    	.nd_options_customizer_fonts h2,
+    	.nd_options_customizer_fonts h3,
+    	.nd_options_customizer_fonts h4,
+    	.nd_options_customizer_fonts h5,
+    	.nd_options_customizer_fonts h6
+    	{ color: #000000; }
+    	.nd_options_customizer_fonts .nd_options_color_greydark_important
+    	{ color: #000000 !important; }
+
+    	/*PLACEHOLDER*/
+    	.nd_options_customizer_fonts .nd_options_placeholder_color_greydark_important::-webkit-input-placeholder { color: #000000 !important; }
+		.nd_options_customizer_fonts .nd_options_placeholder_color_greydark_important::-moz-placeholder { color: #000000 !important; }
+		.nd_options_customizer_fonts .nd_options_placeholder_color_greydark_important:-ms-input-placeholder { color: #000000 !important; }
+		.nd_options_customizer_fonts .nd_options_placeholder_color_greydark_important:-moz-placeholder { color: #000000 !important; }
+
+    	.nd_options_customizer_fonts,
+    	.nd_options_customizer_fonts .nd_options_color_grey,
+    	.nd_options_customizer_fonts p,
+    	.nd_options_customizer_fonts a,
+    	.nd_options_customizer_fonts select,
+    	.nd_options_customizer_fonts textarea,
+    	.nd_options_customizer_fonts label,
+    	.nd_options_customizer_fonts input
+    	{ color: #000000; }
+
+    	.nd_options_color_grey_important { color: #000000 !important; }
+
+
+    	/*compatibility with plugin Learning*/
+    	#nd_learning_calendar_single_course .ui-datepicker-title {
+    		font-family: 'Poppins', sans-serif;
+    		color: #000000;	
+    	}
+    	#nd_learning_calendar_single_course .ui-datepicker-calendar th {
+    		color: #000000;	
+    	}
+       
+    </style>
+    
+
+
+	
+    <style type="text/css">
+
+    	/*START FORMS STYLES*/
+    	.nd_options_customizer_forms span.wpcf7-not-valid-tip,
+    	.nd_options_customizer_forms .wpcf7-response-output.wpcf7-validation-errors,
+    	.wpcf7-response-output
+    	{ 
+    		background-color: #c93e3e; 
+    		border-width: 0px !important;
+    		border-color: #ffffff !important;
+    		border-radius: 0px;
+    		border-style: solid;
+    		padding: 10px !important;
+    		color: #ffffff;
+    		margin: 10px 0px 10px 0px !important;
+    		font-size: 13px;
+    		line-height: 20px;
+    	}
+    	.nd_options_customizer_forms .wpcf7-response-output.wpcf7-mail-sent-ok
+    	{ 
+    		background-color: #00baa3; 
+    		border-width: 0px;
+    		border-color: #ffffff;
+    		border-radius: 0px;
+    		border-style: solid;
+    		padding: 10px;
+    		color: #ffffff;
+    		margin: 0px;
+    		margin-top: 10px;
+    		font-size: 13px;
+    		line-height: 20px;
+    	}
+
+
+    	/*new compatibility*/
+    	.nd_options_customizer_forms .wpcf7 form.sent .wpcf7-response-output {
+    		background-color: #00baa3; 
+    		border-width: 0px;
+    		border-color: #ffffff;
+    		border-radius: 0px;
+    		border-style: solid;
+    		padding: 10px;
+    		color: #ffffff;
+    		margin: 0px;
+    		margin-top: 10px;
+    		font-size: 13px;
+    		line-height: 20px;
+    	}
+
+
+
+       
+    </style>
+    
+
+
+	
+    <style type="text/css">
+
+    	/*START FORMS STYLES*/
+    	.nd_options_customizer_forms input[type="text"],
+    	.nd_options_customizer_forms input[type="email"],
+    	.nd_options_customizer_forms input[type="url"],
+    	.nd_options_customizer_forms input[type="tel"],
+    	.nd_options_customizer_forms input[type="number"],
+    	.nd_options_customizer_forms input[type="date"],
+    	.nd_options_customizer_forms input[type="file"],
+    	.nd_options_customizer_forms input[type="password"],
+    	.nd_options_customizer_forms select,
+    	.nd_options_customizer_forms textarea,
+    	.StripeElement
+
+    	{ 
+    		background-color: #f9f9f9; 
+    		border-width: 1px;
+    		border-color: #f1f1f1;
+    		border-radius: 0px;
+    		border-style: solid;
+    		padding: 15px 20px;
+    		-webkit-appearance: none;
+    		color: #000000 !important;
+
+    		    	}
+
+
+    	.nd_options_customizer_forms input[type="text"]::-webkit-input-placeholder,
+    	.nd_options_customizer_forms input[type="email"]::-webkit-input-placeholder,
+    	.nd_options_customizer_forms input[type="url"]::-webkit-input-placeholder, 
+    	.nd_options_customizer_forms input[type="tel"]::-webkit-input-placeholder ,
+    	.nd_options_customizer_forms input[type="password"]::-webkit-input-placeholder ,
+    	.nd_options_customizer_forms input[type="number"]::-webkit-input-placeholder,
+    	.nd_options_customizer_forms textarea::-webkit-input-placeholder  {
+    		color: #000000 !important;	
+    	}
+
+
+    	.nd_options_customizer_forms select {
+    		cursor: pointer;
+    	}
+
+    	.nd_options_customizer_forms select option {
+    		padding: 15px 20px;	
+    	}
+
+       
+    </style>
+    
+
+
+	
+    <style type="text/css">
+
+    	/*START FORMS STYLES*/
+    	.nd_options_customizer_forms input[type="submit"],
+    	.nd_options_customizer_forms button[type="submit"],
+    	.give-btn.give-btn-modal
+    	{ 
+    		background-color: #00baa3; 
+    		border-width: 0px;
+    		border-color: #00baa3;
+    		/ border-radius: 30px;/
+    		border-style: solid;
+    		padding: 7px 45px;
+    		-webkit-appearance: none;
+    		color: #ffffff;
+    		cursor: pointer;
+    		font-family: 'Poppins', sans-serif;
+
+    	}
+
+       
+    </style>
+    
+
+
+	<style type="text/css">
+
+		.nd_options_cursor_default_a > a { cursor: default; }
+		.nd_options_customizer_labels_color_new { background-color: #efc94c; }
+		
+		/*hot*/
+		.nd_options_navigation_type .menu li.nd_options_hot_label > a:after,
+		#nd_options_header_5 .menu li.nd_options_hot_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_hot_label > a:after { content: "HOT"; float: right; background-color: #d55342; border-radius: 3px; color: #fff; font-size: 10px; line-height: 10px; padding: 3px 5px; }
+		
+		/*best*/
+		.nd_options_navigation_type .menu li.nd_options_best_label > a:after,
+		#nd_options_header_5 .menu li.nd_options_best_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_best_label > a:after { content: "BEST"; float: right; background-color: #00baa3; border-radius: 3px; color: #fff; font-size: 10px; line-height: 10px; padding: 3px 5px; }
+		
+		/*new*/
+		.nd_options_navigation_type .menu li.nd_options_new_label > a:after,
+		#nd_options_header_5 .menu li.nd_options_new_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_new_label > a:after { content: "NEW"; float: right; background-color: #efc94c; border-radius: 3px; color: #fff; font-size: 10px; line-height: 10px; padding: 3px 5px; }
+		
+		/*slide*/
+		.nd_options_navigation_type .menu li.nd_options_slide_label > a:after,
+		#nd_options_header_5 .menu li.nd_options_slide_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_slide_label > a:after { content: "SLIDE"; float: right; background-color: #d55342; border-radius: 3px; color: #fff; font-size: 10px; line-height: 10px; padding: 3px 5px; }
+
+		/*demo*/
+		.nd_options_navigation_type .menu li.nd_options_demo_label > a:after,
+		#nd_options_header_5 .menu li.nd_options_demo_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_demo_label > a:after { content: "DEMO"; float: right; background-color: #d55342; border-radius: 3px; color: #fff; font-size: 10px; line-height: 10px; padding: 3px 5px; }
+
+		/*all*/
+		#nd_options_header_6 .menu li.nd_options_hot_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_best_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_new_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_slide_label > a:after,
+		#nd_options_header_6 .menu li.nd_options_demo_label > a:after { padding: 5px 5px 3px 5px; border-radius: 0px; letter-spacing: 1px; }
+
+		/*all*/
+		.nd_elements_navigation_sidebar_content .menu li.nd_options_new_label > a:after,
+		.nd_elements_navigation_sidebar_content .menu li.nd_options_hot_label > a:after,
+		.nd_elements_navigation_sidebar_content .menu li.nd_options_best_label > a:after,
+		.nd_elements_navigation_sidebar_content .menu li.nd_options_slide_label > a:after,
+		.nd_elements_navigation_sidebar_content .menu li.nd_options_demo_label > a:after { display: none; }
+		
+	</style>
+
+	
+	<!--START css-->
+	<style type="text/css">
+
+		.nd_options_navigation_search_content_form {  }
+		.nd_options_navigation_search_content_form input[type="search"] { 
+			background: none;
+			border: 0px;
+			border-bottom: 2px solid #fff;
+			color: #fff;
+			font-size: 30px;
+			line-height: 30px;
+		}
+		.nd_options_navigation_search_content_form input[type="search"]::-webkit-input-placeholder { color: #fff; }
+		.nd_options_navigation_search_content_form input[type="submit"]{ 
+			font-size: 25px;
+		    line-height: 40px;
+		    margin-left: 20px;
+		}
+		
+	</style>
+	<!--END css-->
+
+
+
+
+
+<!--START css-->
+<style type="text/css">
+
+	.nd_options_navigation_2 div > ul { list-style: none; margin: 0px; padding: 0px; text-align: center; }
+	.nd_options_navigation_2 div > ul > li { display: inline-block; padding: 0px; }
+	.nd_options_navigation_2 div > ul > li:after { content: "|"; display: inline-block; margin: 0px 20px; color: #ededed; }
+	.nd_options_navigation_2 div > ul > li:last-child:after { content: ""; margin: 0px; }
+	.nd_options_navigation_2 div li a { color: #727475; font-size: 16px; line-height: 16px; font-family: Poppins; }
+	.nd_options_navigation_2 div > ul li:hover > ul.sub-menu { display: block; }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu { z-index: 999; position: absolute; margin: 0px; padding: 0px; list-style: none; display: none; margin-left: -20px; padding-top: 20px; width: 190px; }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu > li { padding: 15px 20px; border-bottom: 1px solid #f1f1f1; text-align: left; background-color: #fff; position: relative; box-shadow: 0px 2px 5px #f1f1f1; float: left; width: 100%; box-sizing:border-box; }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu > li:hover { background-color: #f9f9f9;  }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu > li:last-child { border-bottom: 0px solid #000; }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu li a { font-size: 14px; color: #000000; float: left; width: 100%; }
+	.nd_options_navigation_2 div > ul li > ul.sub-menu li > ul.sub-menu { margin-left: 170px; top: 0; padding-top: 0; padding-left: 20px; }
+	/*responsive*/
+	.nd_options_navigation_2_sidebar div > ul { list-style: none; margin: 0px; padding: 0px; }
+	.nd_options_navigation_2_sidebar div > ul > li { display: inline-block; width: 100%; padding: 0px 0px 20px 0px; }
+	.nd_options_navigation_2_sidebar div li a { font-family: Poppins; }
+	.nd_options_navigation_2_sidebar div li > a { padding: 10px 0px; display: inline-block; font-size: 24px; font-family: Poppins; text-transform: lowercase; color: #fff; }
+	.nd_options_navigation_2_sidebar div li > a::first-letter { text-transform: uppercase; }
+	.nd_options_navigation_2_sidebar div > ul li > ul.sub-menu { margin: 0px; padding: 0px; list-style: none; }
+	.nd_options_navigation_2_sidebar div > ul li > ul.sub-menu > li { padding: 0px 20px; text-align: left; }
+	.nd_options_navigation_2_sidebar div > ul li > ul.sub-menu li a { font-size: 14px; }
+	.nd_options_navigation_2_sidebar_content li.nd_options_customizer_labels_color_new { padding: 0px !important; background-color: transparent !important; }
+	/*top header*/
+	.nd_options_navigation_top_header_2 { font-size: 13px; line-height: 18px; }
+	.nd_options_navigation_top_header_2 > ul { list-style: none; margin: 0px; padding: 0px; }
+	.nd_options_navigation_top_header_2 > ul > li { display: inline-block; }
+	.nd_options_navigation_top_header_2> ul > li:after { content: "|"; display: inline-block; margin: 0px 15px; font-size: 13px; }
+	.nd_options_navigation_top_header_2 > ul > li:last-child:after { content: ""; margin: 0px; }
+	.nd_options_navigation_top_header_2 li a { font-size: 13px; }
+	.nd_options_navigation_top_header_2 > ul li:hover > ul.nd_options_sub_menu { display: block; }
+	.nd_options_navigation_top_header_2 > ul li > ul.nd_options_sub_menu { padding: 10px 0px 0px 15px; position: absolute; margin: 0px; list-style: none; display: none; z-index: 9; }
+	.nd_options_navigation_top_header_2 > ul li > ul.nd_options_sub_menu > li { padding: 7px 15px; font-size: 13px; border-bottom: 1px solid #595959; background-color: #444444; }
+	.nd_options_navigation_top_header_2 > ul li > ul.nd_options_sub_menu > li:last-child { border-bottom: 0px solid #000; }
+   
+	#nd_options_navigation_top_header_2_left div:last-child div a img { margin-right: 0px; }
+	#nd_options_navigation_top_header_2_right div:last-child div a img { margin-left: 0px; }
+
+	/*arrow for item has children*/
+	.nd_options_navigation_2 .menu ul.sub-menu li.menu-item-has-children > a:after { content:""; float: right; border-style: solid; border-width: 5px 0 5px 5px; border-color: transparent transparent transparent #000000; margin-top: 3px; }
+
+</style>
+<!--END css-->
+
+
+
+
+
+<style>
+
+/*remove*/
+#tribe-events {
+	/*padding-top: 200px;*/
+}
+#tribe-events-content {
+	/*padding-top: 200px;*/
+}
+.tribe-events-single .tribe-events-schedule .tribe-events-cost{
+	/*display: none;*/
+}
+
+
+/*************************** GENERAL ***************************/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events p{
+	line-height: 29px;
+}
+
+
+/*************************** Single Event ***************************/
+
+/*image*/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-event-image img {
+	width: 100%;
+}	
+
+
+
+/*title and date and link back events*/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe-events-single-event-title{
+	font-size: 40px;
+	font-weight: bolder;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe-events-schedule{
+	margin-top: 10px;
+	margin-bottom: 40px; 
+	background-color: initial;
+    border: 0px;
+    padding: 0px;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe-events-schedule h2{
+	font-weight: lighter;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe-events-back a{
+	background-color:#444444;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+/*buttons*/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-gcal.tribe-events-button,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-ical.tribe-events-button{ 
+	border-radius: 30px; 
+	font-size: 14px;
+	padding: 10px 20px;
+	line-height: 14px;
+	font-weight: normal;
+}
+
+
+/*details and organizer*/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-single-section.tribe-events-event-meta{
+	border-width: 0px;
+	color: #000000;
+	font-size: 15px;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details{
+	padding-right: 15px !important;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer{
+	padding-left: 15px !important;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer{
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details h3,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer h3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details dd,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dd
+{
+	width: 50%;
+	float: left;
+	border-top: 1px solid #f1f1f1;
+	padding: 15px;
+	box-sizing:border-box;
+	margin: 0px;
+	line-height: 29px;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dd.tribe-organizer
+{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bolder;
+}
+
+
+/*venue*/
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue{
+	margin: 0px;
+	padding: 0px;
+}
+
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue h3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dd
+{
+	width: 50%;
+	float: left;
+	border-top: 1px solid #f1f1f1;
+	padding: 15px;
+	box-sizing:border-box;
+	margin: 0px;
+	line-height: 29px;
+}
+
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-venue-map{
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+	box-sizing:border-box;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue{
+	padding-right: 15px !important;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-venue-map{
+	padding-left: 15px !important;
+	background: none;
+	border-width: 0px;
+}
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dt,
+.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dd.tribe-venue
+{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bolder;
+}
+
+/*footer*/
+.tribe-events-single #tribe-events-footer { border-width: 0px; }
+.tribe-events-single #tribe-events-footer ul .tribe-events-nav-next a,
+.tribe-events-single #tribe-events-footer ul .tribe-events-nav-previous a {
+	background-color: #444444;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 29px;
+}
+
+
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-venue-map,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details dt,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details dd,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dt,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer dd,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dt,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue dd{
+		width: 100%;
+	}	
+
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-details,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-venue,
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-venue-map{
+		padding: 0px !important;
+	}
+
+	.tribe_events-template-default #tribe-events .tribe-events-single .tribe_events .tribe-events-meta-group.tribe-events-meta-group-organizer{
+		margin-top: 30px;
+	}
+}
+
+
+/*************************** ARCHIVE ***************************/
+
+/*footer*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer{ margin-top: 40px; }
+#tribe-events #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer ul .tribe-events-nav-previous,
+#tribe-events #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer ul .tribe-events-nav-next{
+	margin: 0px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer ul .tribe-events-nav-previous a,
+#tribe-events #tribe-events-content-wrapper #tribe-events-content #tribe-events-footer ul .tribe-events-nav-next a {
+	background-color: #444444;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 29px;
+}
+
+
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-ical.tribe-events-button{
+	border-radius: 30px !important;
+	font-size: 14px !important;
+	padding: 10px 20px !important;
+	line-height: 14px !important;
+	font-weight: normal !important;
+	height: initial;
+}
+
+
+/*title*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content h2.tribe-events-page-title a{
+	display: block;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content h2.tribe-events-page-title{
+	font-size: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+
+/*bar filter*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form .tribe-bar-filters .tribe-bar-submit input[type="submit"]{
+	background-color: #00baa3 ;
+	border-radius: 30px;
+    font-weight: normal;
+    font-size: 16px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form .tribe-bar-filters .tribe-bar-filters-inner label,
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form #tribe-bar-views .tribe-bar-views-inner label {
+	font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form .tribe-bar-filters .tribe-bar-filters-inner input[type="text"] {
+	border-bottom:1px solid #f1f1f1;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form #tribe-bar-views .tribe-bar-views-inner,
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form #tribe-bar-views .tribe-bar-views-inner ul li a
+{
+	background-color: #fff;
+	color: #000000;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form #tribe-bar-views .tribe-bar-views-inner ul li{
+	border-bottom: 1px solid #f1f1f1;
+	padding:2px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-bar form #tribe-bar-views .tribe-bar-views-inner ul li a span{
+    line-height: 20px;
+}
+
+
+/*table month*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar thead tr th{
+	font-size: 13px;
+	font-weight: normal;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar td{
+	border-color: #f1f1f1 !important;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar tbody tr td div{
+	font-weight: normal;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar .tribe-events-tooltip .tribe-event-description p{
+	font-size: 13px;
+	line-height: 23px;
+	padding: 7px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar .tribe-events-tooltip .tribe-event-duration .tribe-events-abbr{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #000000;
+}
+/*mobile*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar td.mobile-active,
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-] {
+	background-color: #444444;
+}
+
+
+
+
+/*day view*/
+.tribe-events-day{ padding: 0px; }
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot h5{
+	color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 15px;
+    background-color: #fff;
+    border:1px solid #f1f1f1;
+}
+
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot .type-tribe_events h2 a{
+    color: #000000;
+    font-size: 20px;
+}
+
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot .type-tribe_events .time-details{
+	font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot .type-tribe_events .tribe-events-venue-details{
+	display: none;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot .type-tribe_events .tribe-events-list-event-description{
+	margin-top: 10px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-day-time-slot .type-tribe_events .tribe-events-list-event-description a{
+	font-size: 13px;
+    background-color: #444;
+    color: #fff;
+    padding: 5px 20px;
+    line-height: 13px;
+    border-radius: 30px;
+}
+
+
+/*list view*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-list-separator-month{
+	color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: #fff;
+    border:1px solid #f1f1f1;
+    margin: 0px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .tribe-events-list-separator-month:after{
+	border-width: 0px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events h2.tribe-events-list-event-title a{
+    color: #000000;
+    font-size: 20px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-event-schedule-details{
+	font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-venue-details{
+	display: none;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-list-event-description a{
+	font-size: 13px;
+    background-color: #444;
+    color: #fff;
+    padding: 5px 20px;
+    line-height: 13px;
+    border-radius: 30px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-event-image{
+	width: 30%;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-list-event-description{
+	width: 67%;
+	padding: 0px;
+	margin-top: 10px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events{
+	padding: 35px;
+	margin: 0px;
+}
+
+
+/*mobile*/
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-event-meta{
+	margin: 0px;
+	padding: 0px;
+	background-color: initial;
+	border: 0px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-event-meta > div{
+	padding: 0px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-event-image,
+	#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-event-image img,
+	#tribe-events #tribe-events-content-wrapper #tribe-events-content .tribe-events-loop .type-tribe_events .tribe-events-list-event-description{
+		width: 100%;
+	}	
+}
+
+</style>
+
+
+    <!--START  for post-->
+    <style type="text/css">
+
+        /*sidebar*/
+        .wpb_widgetised_column .widget { margin-bottom: 40px; }
+        .wpb_widgetised_column .widget img, .wpb_widgetised_column .widget select { max-width: 100%; }
+        .wpb_widgetised_column .widget h3 { margin-bottom: 20px; font-weight: normal; }
+
+        /*search*/
+        .wpb_widgetised_column .widget.widget_search input[type="text"] { width: 100%; }
+        .wpb_widgetised_column .widget.widget_search input[type="submit"] { margin-top: 20px; }
+
+        /*list*/
+        .wpb_widgetised_column .widget ul { margin: 0px; padding: 0px; list-style: none; }
+        .wpb_widgetised_column .widget > ul > li { padding: 10px; border-bottom: 1px solid #f1f1f1; }
+        .wpb_widgetised_column .widget > ul > li:last-child { padding-bottom: 0px; border-bottom: 0px solid #f1f1f1; }
+        .wpb_widgetised_column .widget ul li { padding: 10px; }
+        .wpb_widgetised_column .widget ul.children { padding: 10px; }
+        .wpb_widgetised_column .widget ul.children:last-child { padding-bottom: 0px; }
+
+        /*calendar*/
+        .wpb_widgetised_column .widget.widget_calendar table { text-align: center; background-color: #fff; width: 100%; border: 1px solid #f1f1f1; line-height: 20px; }
+        .wpb_widgetised_column .widget.widget_calendar table th { padding: 10px 5px; }
+        .wpb_widgetised_column .widget.widget_calendar table td { padding: 10px 5px; }
+        .wpb_widgetised_column .widget.widget_calendar table tbody td a { color: #fff; padding: 5px; border-radius: 3px; }
+        .wpb_widgetised_column .widget.widget_calendar table tfoot td a { color: #fff; background-color: #444444; padding: 5px; border-radius: 15px; font-size: 13px; }
+        .wpb_widgetised_column .widget.widget_calendar table tfoot td { padding-bottom: 20px; }
+        .wpb_widgetised_column .widget.widget_calendar table tfoot td#prev { text-align: right; }
+        .wpb_widgetised_column .widget.widget_calendar table tfoot td#next { text-align: left; }
+        .wpb_widgetised_column .widget.widget_calendar table caption { font-size: 20px; font-weight: bolder; background-color: #f9f9f9; padding: 20px; border: 1px solid #f1f1f1; border-bottom: 0px; }
+
+        /*color calendar*/
+        .wpb_widgetised_column .widget.widget_calendar table thead { color: #000000; }
+        .wpb_widgetised_column .widget.widget_calendar table tbody td a { background-color: #00baa3; }
+        .wpb_widgetised_column .widget.widget_calendar table caption { color: #000000; font-family: 'Poppins', sans-serif; }
+
+        /*menu*/
+        .wpb_widgetised_column .widget div ul { margin: 0px; padding: 0px; list-style: none; }
+        .wpb_widgetised_column .widget div > ul > li { padding: 10px; border-bottom: 1px solid #f1f1f1; }
+        .wpb_widgetised_column .widget div > ul > li:last-child { padding-bottom: 0px; border-bottom: 0px solid #f1f1f1; }
+        .wpb_widgetised_column .widget div ul li { padding: 10px; }
+        .wpb_widgetised_column .widget div ul.sub-menu { padding: 10px; }
+        .wpb_widgetised_column .widget div ul.sub-menu:last-child { padding-bottom: 0px; }
+
+        /*tag*/
+        .wpb_widgetised_column .widget.widget_tag_cloud a { padding: 5px 10px; border: 1px solid #f1f1f1; border-radius: 15px; display: inline-block; margin: 5px; margin-left: 0px; font-size: 13px !important; line-height: 20px; }
+
+    </style>
+    <!--END css for post-->
+
+
+
+
+<style>
+
+
+	/*-------------------------WooCommerce Archive Page-------------------------*/
+	/*page-title*/
+	.woocommerce.woocommerce-page.post-type-archive-product h1.page-title,
+	.woocommerce.woocommerce-page.tax-product_cat h1.page-title,
+	.woocommerce.woocommerce-page.tax-product_tag h1.page-title
+	{
+		display: none;
+	}
+
+	/*result-count*/
+	.woocommerce.woocommerce-page.post-type-archive-product p.woocommerce-result-count,
+	.woocommerce.woocommerce-page.tax-product_cat p.woocommerce-result-count,
+	.woocommerce.woocommerce-page.tax-product_tag p.woocommerce-result-count
+	{
+		display: none;
+	}
+	
+	/*woocommerce-ordering*/
+	.woocommerce.woocommerce-page.post-type-archive-product form.woocommerce-ordering,
+	.woocommerce.woocommerce-page.tax-product_cat form.woocommerce-ordering,
+	.woocommerce.woocommerce-page.tax-product_tag form.woocommerce-ordering
+	{
+		display: none;
+	}
+
+	/*img product*/
+	.woocommerce ul.products li.product a img{
+		margin-bottom: 10px;
+	}
+
+	/*onsale*/
+	.woocommerce ul.products li.product a span.onsale{
+		top:-10px !important;
+		right: -10px !important;	
+		left: initial !important;
+	}
+
+	/*title product*/
+	.woocommerce ul.products li.product a h2{
+		font-size: 25px !important;
+		line-height: 25px !important;
+		padding: 10px 0px !important;
+		text-align: center;
+	}
+
+	/*price*/
+	.woocommerce ul.products li.product a .price{
+		color: #000000!important;
+		font-size: 15px !important;
+		line-height: 15px !important;
+		margin-top: 10px;
+		text-align: center;
+		letter-spacing: 3px;
+		font-weight: bolder;
+	}
+
+	/*button*/
+	.woocommerce ul.products li.product a.button{
+		display: none;
+	}
+
+	/*star*/
+	.woocommerce ul.products li.product a .star-rating{
+		display: none;
+	}
+
+
+	/*-------------------------WooCommerce Single Product-------------------------*/
+	
+	/*tab description*/
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description{
+		margin-bottom: 60px !important;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description h2{
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: bolder;
+		margin-bottom: 20px;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description > h2{
+		display: none;
+	}
+
+	/*tab additional information*/
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--additional_information > h2{
+		display: none;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--additional_information .shop_attributes tr {
+		border-top: 1px solid #f1f1f1;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--additional_information .shop_attributes th {
+		color: #000000;	
+		background-color: #fff !important;
+		padding: 20px;	
+		min-width: 50px;
+    	width: 1px;
+    	border-bottom-width: 0px;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--additional_information .shop_attributes td {
+		background-color: #fff !important;
+		border-bottom-width: 0px;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--additional_information .shop_attributes td p{
+		font-style: normal;		
+	}
+
+	/*tab reviews*/
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews{
+		margin-bottom: 60px !important;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments h2{
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: bolder;
+		margin-bottom: 40px;		
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments ol.commentlist{
+		margin: 0px;
+		padding: 0px;	
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments ol.commentlist li{
+		border-bottom: 1px solid #f1f1f1 !important;	
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments ol.commentlist li .avatar{
+	    border: 0px !important;
+	    padding: 0px !important;
+	    border-radius: 100%;
+	    width: 40px !important;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments ol.commentlist li div .comment-text{
+		border: 0px solid #f1f1f1 !important;
+    	padding: 15px 10px !important;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #comments ol.commentlist li div .comment-text .meta{
+		font-size: 16px !important;
+		line-height: 16px !important;
+		font-family: 'Poppins', sans-serif;
+		font-weight: bolder;
+	}
+	.woocommerce-Tabs-panel.woocommerce-Tabs-panel--reviews .woocommerce-Reviews #review_form .submit{
+		background-color: #00baa3 !important; 
+		border-radius: 25px !important;
+		padding: 10px 20px !important;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		color: #fff !important;	 	      
+	}
+
+	/*top description*/
+	.woocommerce.woocommerce-page .product.type-product .summary.entry-summary div p{
+		margin: 20px 0px;
+	}
+
+	/*button add to cart*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary form .single_add_to_cart_button{
+		background-color: #00baa3; 
+		border-radius: 30px;
+		padding: 10px 25px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		line-height: 29px;
+		font-weight: normal;
+	}
+
+	/*qnt form*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary form div.quantity{
+		margin-right: 20px;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary form div.quantity .qty{
+		max-height: 49px;
+	}
+
+
+	/*product_meta*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary .product_meta{
+		color: #000000;	
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .product_meta > span{
+		font-family: 'Poppins', sans-serif;
+		display: block;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .product_meta span a{
+		padding: 8px;
+	    border: 1px solid #f1f1f1;
+	    font-size: 13px;
+	    line-height: 13px;
+	    display: inline-block;
+	    margin: 5px 10px;
+	    margin-left: 0px;
+	    border-radius: 0px;	
+	}
+
+
+	.woocommerce.woocommerce-page .product .summary.entry-summary .stock.out-of-stock{
+		background-color: #d55342;
+		color: #fff;
+	    border-radius: 30px;
+	    padding: 10px 25px;
+	    text-transform: uppercase;
+	    font-family: 'Poppins', sans-serif !important;	 
+	    font-size: 15px;
+	    line-height: 29px;
+	    font-weight: normal;	
+	    display: inline-block;
+    	margin-bottom: 20px;
+	}
+
+
+	/*sku*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary .product_meta .sku_wrapper span.sku{
+		padding: 8px;
+	    border: 1px solid #f1f1f1;
+	    font-size: 13px;
+	    line-height: 13px;
+	    display: inline-block;
+	    margin: 5px 10px;
+	    margin-left: 0px;
+	    border-radius: 0px;
+	    color: #000000;
+	    font-family: 'Poppins', sans-serif !important;	 
+	}
+	
+	/*variations*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary .variations .value .reset_variations{
+		background-color: #d55342;
+	    margin: 0px;
+	    padding: 8px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-family: 'Poppins', sans-serif;
+	    font-size: 13px;
+	    line-height: 13px;
+	    border-radius: 15px;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .variations .label label{
+		font-size: 16px;
+		line-height: 16px;
+		color: #000000; 
+		font-family: 'Poppins', sans-serif;
+		font-weight: normal;	
+	}
+
+	/*price*/
+	.woocommerce.woocommerce-page .product .summary.entry-summary .price {
+		font-size: 40px;
+		line-height: 40px;
+		color: #000000;	
+		font-family: 'Poppins', sans-serif;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .price .woocommerce-Price-amount{
+		display: table;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .price .woocommerce-Price-amount .woocommerce-Price-currencySymbol{
+	    display: table-cell;
+	    vertical-align: top;
+	    font-size: 20px;
+	    line-height: 20px;
+	    padding-right: 10px;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .price ins{
+	    text-decoration: none;
+	    font-weight: normal;
+	}
+	.woocommerce.woocommerce-page .product .summary.entry-summary .price del{
+	    float: left;
+	    margin-right: 20px;
+	}
+	
+	/*tab*/
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul{
+		margin: 0px 0px 30px 0px !important;
+		padding: 0px !important;
+		border-bottom: 0px solid #f1f1f1;
+		overflow: visible !important;
+	}
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul:before{
+		border-bottom: 0px solid #f1f1f1 !important;
+	}
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li{
+		background-color: #fff !important;
+		border: 0px !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		margin-right: 20px !important;
+	}
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li a{
+		color: #000000 !important;	
+		font-family: 'Poppins', sans-serif !important;	
+		font-size: 17px !important;
+		line-height: 17px;
+		font-weight: normal !important;
+		padding: 20px 10px !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		padding-bottom: 10px !important;
+	}
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li.active{
+		box-shadow: 0px 2px 0px #444444 !important;
+	}
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li.active:before,
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li.active:after,
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li:after,
+	.woocommerce.woocommerce-page .product .woocommerce-tabs ul li:before{
+		display: none;
+	}
+
+
+	/*image*/
+	.woocommerce.woocommerce-page .product figure.woocommerce-product-gallery__wrapper{ margin: 0px; } 
+
+
+	/*-------------------------WooCommerce General-------------------------*/
+	/*onsale*/
+	.woocommerce span.onsale {
+		top:-10px !important;
+		left: -10px !important;
+	    border-radius: 100%;
+	    min-width: initial;
+	    min-height: initial;
+	    padding: 25px 15px;
+	    line-height: 13px;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    font-weight: bolder;
+	    font-family: 'Poppins', sans-serif;
+	    background-color: #00baa3;
+	}
+
+	/*button*/
+	.add_to_cart_button{
+		font-size: 13px !important;
+		line-height: 13px !important;
+		color: #000000!important;
+		font-weight: normal !important;
+		text-transform: uppercase;
+		border-radius: 3px !important;
+		border: 1px solid #f1f1f1 !important;
+		background-color: #fff !important;
+		font-family: 'Poppins', sans-serif !important;
+	}
+	.added_to_cart{
+		background-color: #00baa3 !important; 
+		color: #fff !important;
+		text-transform: uppercase;
+		font-size: 13px !important;
+		line-height: 13px !important;
+		margin: 0px;
+		margin-left: 5px;
+		padding: .618em 1em !important;
+		font-weight: normal !important;
+		border-radius: 3px !important;
+		font-family: 'Poppins', sans-serif !important;	
+	}
+	  .csspager td
+        {
+              padding-left: 4px;     
+              padding-right: 4px;    
+          }
+
+
+	/*return-to-shop*/
+	.return-to-shop .button{
+		background-color: #00baa3 !important; 
+		border-radius: 30px !important;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;	
+		color:#fff !important;
+		margin-top: 20px !important;
+		font-weight: normal !important;
+		padding: 15px 25px !important;
+	}
+
+
+	/*qnt form*/
+	.woocommerce .quantity .qty{
+		min-width: 100px;
+	}
+
+
+	/*woocommerce-pagination*/
+	.woocommerce nav.woocommerce-pagination ul{
+		border: 0px;
+	}
+	.woocommerce nav.woocommerce-pagination ul li{
+		border: 0px;
+	}
+	.woocommerce nav.woocommerce-pagination ul li span.current{
+		background-color: #fff;
+		color: #000000!important;
+		font-family: 'Poppins', sans-serif !important;
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: bold;
+		padding: 5px
+	}
+	.woocommerce nav.woocommerce-pagination ul li a{
+		font-family: 'Poppins', sans-serif !important;
+		color: #000000!important;	
+		font-size: 20px;
+		line-height: 20px;
+		font-weight: bold;
+		padding: 5px;
+	}
+	.woocommerce nav.woocommerce-pagination ul li a:hover{
+		background-color: #fff;
+	}
+
+
+	/*related products*/
+	.related.products > h2{
+		margin-bottom: 25px;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.related.products ul.products li{
+		margin-bottom: 0px;
+	}
+
+	/*upsells products*/
+	.up-sells.upsells.products h2{
+		margin-bottom: 25px;	
+	}
+
+	/*reviews link*/
+	.woocommerce-review-link{
+		display: none;
+	}
+
+	/*woocommerce-message*/
+	.woocommerce-message{
+		border-top: 0px;
+		background-color: #00baa3;
+		border-radius: 0px;
+		color: #fff;	
+		line-height: 36px;	
+	}
+	.woocommerce-message:before{
+		color: #fff;	
+	}
+	.woocommerce-message a{
+		background-color: #444444 !important;
+	    border-radius: 25px !important;
+	    color: #fff !important;
+	    text-transform: uppercase;
+	    padding: 10px 20px !important;
+	    font-family: 'Poppins', sans-serif;
+	    font-weight: normal !important;		
+	}
+
+	/*woocommerce-error*/
+	.woocommerce-error{
+		border-top: 0px;
+		background-color: #d55342;
+		border-radius: 3px;
+		color: #fff;	
+		line-height: 36px;		
+	}
+	.woocommerce-error:before{
+		color: #fff;	
+	}
+	.woocommerce-error a{
+		color: #fff;
+		text-decoration: underline;		
+	}
+
+	/*woocommerce-info*/
+	.woocommerce-info{
+		border-top: 0px;
+		background-color: #2780ba;
+		border-radius: 0px;
+		color: #fff;	
+		line-height: 36px;		
+	}
+	.woocommerce-info a{
+		color: #fff;
+		text-decoration: underline;		
+	}
+	.woocommerce-info:before{
+		color: #fff;	
+	}
+
+	/*required*/
+	.woocommerce form .form-row .required{
+		color: #000000;
+	}
+	.woocommerce form .form-row.woocommerce-invalid label{
+		color: #000000;	
+	}
+
+
+	/*-------------------------WooCommerce Cart-------------------------*/
+	.woocommerce-cart .woocommerce .shop_table.cart td{
+		border-color: #f1f1f1;	
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart{
+		border: 1px solid #f1f1f1;	
+		border-radius: 0px !important;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart .actions{
+		background-color:#f9f9f9;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart th,
+	.woocommerce-cart .woocommerce .shop_table.cart td{
+		padding: 20px;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart thead{
+		background-color:#f9f9f9;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart tr.cart_item .product-thumbnail a img{
+		float: left;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart tr.cart_item .product-name .variation{
+		display: none;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart .product-remove .remove{
+		color: #d55342 !important; 
+	    background-color: #fff !important;
+	    font-size: 15px;
+	    padding: 5px;
+	}
+
+	.woocommerce-cart .cart-collaterals{
+		margin-top: 50px;
+	}
+	.woocommerce-cart .cart-collaterals h2{
+		margin-bottom: 25px;
+	}
+
+	.woocommerce-cart .cart-collaterals .cart_totals table{
+		border: 1px solid #f1f1f1;
+		border-radius: 0px !important;
+	}
+	.woocommerce-cart .cart-collaterals .cart_totals table th,
+	.woocommerce-cart .cart-collaterals .cart_totals table td{
+		padding: 20px;
+	}
+
+	.woocommerce-cart .cart-collaterals .cart_totals .wc-proceed-to-checkout a{
+		background-color: #00baa3; 
+		border-radius: 50px;
+		padding: 20px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		font-weight: normal;	
+	}
+
+	.woocommerce-cart .woocommerce .shop_table.cart .actions input[type="submit"]{
+		background-color: #00baa3; 
+		border-radius: 30px;
+		padding: 10px 25px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		color: #fff;	
+		font-size: 15px;
+		line-height: 23px;
+		font-weight: normal;
+	}
+	.woocommerce-cart .woocommerce .shop_table.cart .actions .coupon #coupon_code{
+		border-radius: 25px;
+		border: 1px solid #f1f1f1;
+		min-width: 180px;
+		padding: 8px 20px;
+	}
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
+   		.woocommerce-cart .woocommerce .shop_table.cart .actions .coupon #coupon_code{
+			min-width: 0px;
+		}
+	}
+
+
+	/*-------------------------WooCommerce Checkout-------------------------*/
+	.woocommerce-checkout .woocommerce .checkout_coupon{
+		border-radius: 0px;
+		border: 1px solid #f1f1f1;
+	}
+	.woocommerce-checkout .woocommerce form.login{
+		border-radius: 0px;
+		border: 1px solid #f1f1f1;
+	}
+	.woocommerce-checkout .woocommerce .checkout_coupon input[type="submit"],
+	.woocommerce-checkout .woocommerce form.login p .button{
+		background-color: #00baa3; 
+		border-radius: 30px;
+		padding: 10px 25px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		color: #fff;
+		font-size: 15px;
+		line-height: 23px;
+		font-weight: normal; 	
+	}
+
+	.woocommerce-checkout .woocommerce .woocommerce-billing-fields h3,
+	.woocommerce-checkout .woocommerce .woocommerce-shipping-fields h3,
+	.woocommerce-checkout #order_review_heading,
+	.woocommerce-checkout .woocommerce .woocommerce-additional-fields h3{
+		font-weight: bolder;
+		margin-bottom: 25px;
+		text-transform: uppercase;
+	}
+	.woocommerce-checkout #order_review_heading{
+		margin-top: 40px;
+	}
+
+
+	.woocommerce-checkout.checkout #customer_details .woocommerce-billing-fields p{
+		margin: 0px 0px 20px 0px;
+	}
+
+	.woocommerce-checkout.checkout #customer_details .woocommerce-shipping-fields textarea{
+		height: 100px;
+	}
+
+	.woocommerce-checkout.checkout  #order_review .shop_table.woocommerce-checkout-review-order-table{
+		border: 1px solid #f1f1f1;
+		border-collapse: collapse;
+	}
+	.woocommerce-checkout.checkout  #order_review .shop_table.woocommerce-checkout-review-order-table th,
+	.woocommerce-checkout.checkout  #order_review .shop_table.woocommerce-checkout-review-order-table td{
+		border-color: #f1f1f1;
+		padding: 20px;
+	}
+	.woocommerce-checkout.checkout  #order_review .shop_table.woocommerce-checkout-review-order-table thead,
+	.woocommerce-checkout.checkout  #order_review .shop_table.woocommerce-checkout-review-order-table tfoot{
+		background-color: #f9f9f9;
+	}
+
+	/*select drop*/
+	.select2-container .select2-choice {
+		border-color:#f1f1f1;
+		color: #000000;	
+		border-width: 0px;
+		border-bottom-width: 2px;
+		font-size: 15px;
+		line-height: 19px;
+		padding: 10px 20px;
+		border-radius: 0px;
+	}
+	.select2-drop.select2-drop-above{
+		border-color:#f1f1f1;
+	}
+	.select2-drop.select2-drop-above.select2-drop-active{
+		border-color:#f1f1f1;	
+	}
+	.select2-drop-active{
+		border-color:#f1f1f1;		
+	}
+	.select2-drop{
+		color: #000000 !important;
+	}
+	.select2-results .select2-highlighted{
+		color: #000000 !important;	
+	}
+
+
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .about_paypal{
+		display: none;
+	}
+
+	/*placeorder*/
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment #place_order{
+		background-color: #2780ba; 
+		border-radius: 30px;
+		padding: 10px 25px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		line-height: 23px;
+		font-weight: normal;
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .form-row.place-order{
+		padding: 30px !important;
+	}
+
+
+	/*payment block*/
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment {
+		background-color: #444444 !important; 	
+		border-radius: 0px !important;
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment ul{
+		border-bottom-width: 0px !important;
+	}
+
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_method.payment_method_paypal img{
+		display: none;
+	}
+
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_methods{
+		padding: 20px 30px 0px 30px !important;
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_methods li{
+		padding: 5px 0px; 	
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_method div{
+		background-color: #444444 !important; 	
+		padding: 0px !important;
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_method div:before{
+		border-color: #444444 !important; 	
+	}
+	.woocommerce-checkout.checkout .woocommerce-checkout-payment .wc_payment_method label{
+		color: #fff;
+		text-transform: uppercase;	
+	}
+
+
+	.woocommerce form .form-row.woocommerce-validated input.input-text{
+		border-color: #00baa3;
+	}
+	.woocommerce form .form-row.woocommerce-invalid input.input-text{
+		border-color: #d55342;
+	}
+
+
+
+	/*-------------------------WooCommerce Account-------------------------*/
+	.woocommerce-account .woocommerce > h2 {
+		display: none;
+	}
+
+	.woocommerce-account .woocommerce .login{
+		border-radius: 0px;
+		border-color:#f1f1f1;
+	}
+
+	.woocommerce-account .woocommerce .login p .woocommerce-Button,
+	.woocommerce-account .lost_reset_password p .woocommerce-Button{
+		background-color: #00baa3 !important; 
+		border-radius: 3px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;	
+		color:#fff !important;
+	}
+
+
+	/*-------------------------WooCommerce Order Completed-------------------------*/
+	.woocommerce-checkout .woocommerce .woocommerce-thankyou-order-details,
+	.woocommerce-checkout .woocommerce .wc-bacs-bank-details.order_details.bacs_details{
+		margin: 20px 0px;
+		padding: 30px;
+	    background-color: #f9f9f9;
+	    border: 1px solid #f1f1f1;
+	}
+	.woocommerce-checkout .woocommerce .wc-bacs-bank-details.order_details.bacs_details{
+		margin-bottom: 40px;
+	}
+
+	.woocommerce-checkout .woocommerce table.shop_table.order_details{
+		border-color: #f1f1f1;
+		border-collapse: collapse;
+		margin-top: 25px;
+	}
+	.woocommerce-checkout .woocommerce table.shop_table.order_details thead{
+		background-color: #f9f9f9;
+	}
+	.woocommerce-checkout .woocommerce table.shop_table.order_details tr,
+	.woocommerce-checkout .woocommerce table.shop_table.order_details td,
+	.woocommerce-checkout .woocommerce table.shop_table.order_details th{
+		border-color: #f1f1f1;
+		padding: 20px;
+	}
+
+
+	.woocommerce-checkout .woocommerce h2.wc-bacs-bank-details-heading{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+
+
+	/*-------------------------WooCommerce Widgets-------------------------*/
+
+	/*START custom widget for footer 4 on layout page 3*/
+	#nd_options_footer_4 .wpb_widgetised_column .widget_products.widget.woocommerce li{ border-width: 0px; padding: 25px 20px 25px 110px;}
+	#nd_options_footer_4 .wpb_widgetised_column .widget_products.widget.woocommerce li a span.product-title{font-size: 17px;font-weight: normal;letter-spacing: 0px;color: #000000; font-family: 'Poppins', sans-serif;}
+	#nd_options_footer_4 .wpb_widgetised_column .widget_products.widget.woocommerce li a img{width: 90px;top: 10px;}
+	#nd_options_footer_4 .wpb_widgetised_column .widget_products.widget.woocommerce li span{font-size: 13px;font-weight: lighter;letter-spacing: 3px;}
+	/*END custom widget for footer 4 on layout page 3*/
+
+	.nd_options_woocommerce_sidebar .widget h3{
+		font-weight: bolder;
+		margin-bottom: 20px;
+	}
+	.nd_options_woocommerce_sidebar .widget{
+		margin-bottom: 40px;
+	}
+
+	.widget.woocommerce.widget_shopping_cart ul,
+	.widget.woocommerce.widget_recent_reviews ul,
+	.widget.woocommerce.widget_top_rated_products ul,
+	.widget.woocommerce.widget_recently_viewed_products ul,
+	.widget.woocommerce.widget_products ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	.widget.woocommerce.widget_shopping_cart ul li,
+	.widget.woocommerce.widget_recent_reviews ul li,
+	.widget.woocommerce.widget_top_rated_products ul li,
+	.widget.woocommerce.widget_recently_viewed_products ul li,
+	.widget.woocommerce.widget_products ul li{
+		margin: 0px;
+		padding: 20px 20px 20px 70px;
+		position: relative;
+	}
+	.widget.woocommerce.widget_shopping_cart ul li:last-child{
+		padding-bottom: 20px;
+	}
+	.widget.woocommerce.widget_shopping_cart ul .empty{
+		padding:20px;
+		border:1px solid #f1f1f1;
+	}
+	.widget.woocommerce.widget_shopping_cart ul li .variation,
+	.widget.woocommerce.widget_shopping_cart .total,
+	.widget.woocommerce.widget_recent_reviews ul li .reviewer,
+	.widget.woocommerce.widget_top_rated_products ul li .amount{
+		display: none;
+	}
+	.widget.woocommerce.widget_shopping_cart ul li .remove{
+		right: 0px;
+	    left: initial;
+	    top: 40px;
+	    font-size: 20px;
+	    color: #d55342 !important;		
+	}
+	.widget.woocommerce.widget_shopping_cart ul li .remove:hover{
+		color: #fff !important;
+		background-color: #d55342 !important;	
+	}
+	.widget.woocommerce.widget_shopping_cart .buttons a{
+		background-color: #00baa3; 
+		border-radius: 25px;
+		padding: 10px 20px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		color: #fff;		
+	}
+	.widget.woocommerce.widget_shopping_cart .buttons a.checkout{
+		background-color: #2780ba; 
+		float: right;	
+	}
+	.widget.woocommerce.widget_shopping_cart ul li a img,
+	.widget.woocommerce.widget_recent_reviews ul li a img,
+	.widget.woocommerce.widget_top_rated_products ul li a img,
+	.widget.woocommerce.widget_recently_viewed_products ul li a img,
+	.widget.woocommerce.widget_products ul li a img{
+		position:absolute;
+		left: 0px;
+		top: 25px;
+		width: 50px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.widget.woocommerce.widget_recent_reviews ul li,
+	.widget.woocommerce.widget_top_rated_products ul li{
+		padding-bottom: 30px;
+	}
+	.widget.woocommerce.widget_product_tag_cloud .tagcloud a{
+		padding: 5px 10px;
+	    border: 1px solid #f1f1f1;
+	    border-radius: 15px;
+	    display: inline-block;
+	    margin: 5px;
+	    margin-left: 0px;
+	    font-size: 13px !important;
+	    line-height: 20px;
+	}
+	.widget.woocommerce.widget_product_categories ul { margin: 0px; padding: 0px; list-style: none; }
+    .widget.woocommerce.widget_product_categories > ul > li { padding: 10px; border-bottom: 1px solid #f1f1f1; }
+    .widget.woocommerce.widget_product_categories > ul > li:last-child { padding-bottom: 0px; border-bottom: 0px solid #f1f1f1; }
+    .widget.woocommerce.widget_product_categories ul li { padding: 10px; }
+    .widget.woocommerce.widget_product_categories ul.sub-menu { padding: 10px; }
+    .widget.woocommerce.widget_product_categories ul.sub-menu:last-child { padding-bottom: 0px; }
+
+    .widget.woocommerce.widget_price_filter .price_slider_amount .button{
+    	background-color: #00baa3; 
+		border-radius: 3px;
+		padding: 10px 20px;
+		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
+		color: #fff;	
+    }
+    .widget.woocommerce.widget_price_filter .price_slider_amount .price_label{
+    	font-size: 16px;
+    }
+    .woocommerce.widget_price_filter .price_slider{
+    	margin-top: 40px;
+    	margin-bottom: 20px;
+    }
+    .woocommerce.widget_price_filter .ui-slider .ui-slider-handle,
+    .woocommerce.widget_price_filter .ui-slider .ui-slider-range{
+    	background-color: #00baa3; 
+    }
+    .woocommerce.widget_price_filter .price_slider_wrapper .ui-widget-content
+    {
+    	background-color: #00baa3; 
+    }
+    
+
+</style>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.iwocnigeria.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.3.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e) {
+        try {
+            var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+            if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) { f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e) }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) { var u = (e.c.width(), jQuery(window).height()); if (void 0 != e.fullScreenOffsetContainer) { var c = e.fullScreenOffsetContainer.split(","); if (c) jQuery.each(c, function (e, i) { u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0)) } f = u } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+        } catch (d) { console.log("Failure at Presize of Slider:" + d) }
+    };</script>
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+*/
+
+#home-contact form {
+	display: block !important;
+}
+
+#home-contact form  br{
+	display: none !important;
+}
+
+#home-contact form .nd_options_float_left{
+	width: 50% !important;
+  padding: 10px !important;
+	display: inline-block !important;
+}
+
+#home-contact span.wpcf7-form-control-wrap{
+	width: 100% !important;
+	display: block !important;
+}
+#home-contact span.wpcf7-form-control-wrap .wpcf7-form-control{
+		width: 100%;
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+#home-contact span.wpcf7-form-control-wrap .wpcf7-form-control.wpcf7-textarea{
+		width: 100%;
+		height: 55px;
+		resize: none;
+}
+
+#home-contact .wpcf7-response-output{
+    float: left;
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+}
+
+#home-contact .wpcf7-submit{
+		width: 100%;
+		height: 55px;
+}
+
+.nd_options_navigation_2 div li a {
+    color: #727475;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: lighter;
+    font-family: Poppins;
+    letter-spacing: 2px;
+		text-transform: uppercase;
+}
+
+			.vertical-align-container {
+			  display: flex;
+			  flex-direction: column;
+			  align-items: center;
+			  writing-mode:vertical-rl;			  
+			}
+
+			.emov-application-status-label78 {
+			  color: white;
+			  /*font-weight: bold;*/
+			  width:14px;
+			  line-height:35px;
+			  font-size:11px;
+			}
+
+/*
+Click the help icon above to learn more.
+*/		</style>
+		<style type="text/css" data-type="vc_custom-css">.theme-font {
+    font-family: Poppins;
+    font-weight: 700;
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1492593618245{margin-top: 40px !important;}.vc_custom_1513776415569{margin-top: 50px !important;padding-top: 100px !important;padding-bottom: 100px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>  
+<body data-rsssl=1 id="start_nicdark_framework" class="page-template-default page page-id-15 nd_options_customizer_fonts nd_options_customizer_forms wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
+<!--START theme-->
+<div class="nicdark_site nicdark_bg_white  ">	
+	
+
+<div id="nd_options_site_filter"></div>
+
+<!--START js-->
+<script type="text/javascript">
+    //<![CDATA[
+
+    jQuery(document).ready(function () {
+
+        //START
+        jQuery(function ($) {
+
+            //OPEN sidebar content ( navigation 2 )
+            $('.nd_options_open_navigation_2_sidebar_content,.nd_options_open_navigation_3_sidebar_content,.nd_options_open_navigation_4_sidebar_content,.nd_options_open_navigation_5_sidebar_content').on("click", function (event) {
+                $('.nd_options_navigation_2_sidebar_content,.nd_options_navigation_3_sidebar_content,.nd_options_navigation_4_sidebar_content,.nd_options_navigation_5_sidebar_content').css({
+                    'right': '0px',
+                });
+            });
+            //CLOSE	sidebar content ( navigation 2 )
+            $('.nd_options_close_navigation_2_sidebar_content,.nd_options_close_navigation_3_sidebar_content,.nd_options_close_navigation_4_sidebar_content,.nd_options_close_navigation_5_sidebar_content').on("click", function (event) {
+                $('.nd_options_navigation_2_sidebar_content,.nd_options_navigation_3_sidebar_content,.nd_options_navigation_4_sidebar_content,.nd_options_navigation_5_sidebar_content').css({
+                    'right': '-300px'
+                });
+            });
+            ///////////
+
+
+        });
+        //END
+
+    });
+
+    //]]>
+</script>
+<!--END js-->
+
+
+
+
+
+
+
+	
+
+
+<!--START menu responsive-->
+<div style="" class="nd_options_navigation_2_sidebar_content nd_options_padding_40 nd_options_box_sizing_border_box nd_options_overflow_hidden nd_options_overflow_y_auto nd_options_transition_all_08_ease nd_options_height_100_percentage nd_options_position_fixed nd_options_width_300 nd_options_right_300_negative nd_options_z_index_999">
+
+    <img alt="" width="25" class="nd_options_close_navigation_2_sidebar_content nd_options_cursor_pointer nd_options_right_20 nd_options_top_20 nd_options_position_absolute" src="https://www.iwocnigeria.org/wp-content/plugins/nd-shortcodes/addons/customizer/header/header-2/img/icon-close-white.svg">
+
+    <div class="nd_options_navigation_2_sidebar">
+      <!--  <div class="menu-main-menu-container">
+			<ul id="menu-main-menu" class="menu"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22"><a href="https://www.iwocnigeria.org/">Home</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="https://www.iwocnigeria.org/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.iwocnigeria.org/our-history/">Our History</a></li>
+	<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.iwocnigeria.org/sponsors-donors/">Sponsors &#038; Donors 2023</a></li>
+</ul>
+</li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.iwocnigeria.org/charities/">Charities 2023</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.iwocnigeria.org/events/">Events</a></li>
+<li id="menu-item-4053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4053"><a href="https://www.iwocnigeria.org/gallery/">Gallery</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item menu-item-20 active "><a href="https://www.iwocnigeria.org/contact-us/" aria-current="page">Contact Us</a></li>
+</ul>
+		</div>  -->
+	</div>
+
+</div>
+<!--END menu responsive-->
+
+
+
+
+
+
+
+
+
+<!--START navigation-->
+<div id="nd_options_navigation_2_container" <%--class="nd_options_section nd_options_position_relative "--%>>
+
+    <div style="border-bottom: 1px solid #ededed ;" class="nd_options_section">
+
+        <!--start nd_options_container-->
+        <div <%--class="nd_options_container nd_options_clearfix nd_options_position_relative"--%>>
+
+            <div class="nd_options_grid_12 nd_options_display_none_all_responsive">
+
+                <div style="height: 4px;" class="nd_options_section"></div>
+
+                <!--LOGO-->
+                <a href="BuyTickets.aspx"><img style="top:0px;margin-left:7%;" alt="" class="nd_options_position_absolute nd_options_left_15" width="213" src="https://iwocnigeria.org/wp-content/uploads/2025/06/full-IWOC-Logo.png"></a>
+              
+                <div class="nd_options_navigation_2 nd_options_navigation_type nd_options_text_align_right nd_options_float_right nd_options_display_none_all_responsive">
+                    
+                    <div class="nd_options_display_table">
+	                	<div class="nd_options_display_table_cell nd_options_vertical_align_middle">
+	                    	<div class="menu-main-menu-container">
+								
+							<%--<h2 style="text-align: center; margin-right: 198px;
+    margin-top: 1px; color: #059e8c;">	BUY TICKETS ONLINE NOW.. </h2>--%>
+							<!--	<ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22"><a href="https://www.iwocnigeria.org/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="https://www.iwocnigeria.org/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.iwocnigeria.org/our-history/">Our History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.iwocnigeria.org/sponsors-donors/">Sponsors &#038; Donors 2023</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.iwocnigeria.org/charities/">Charities 2023</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.iwocnigeria.org/events/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4053"><a href="https://www.iwocnigeria.org/gallery/">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item menu-item-20 active "><a href="https://www.iwocnigeria.org/contact-us/" aria-current="page">Contact Us</a></li>
+</ul> -->
+							</div>	
+						
+						 </div>
+
+                    	
+	
+                	</div> 
+
+                </div> 
+
+
+                
+
+
+                <div style="height: 4px;" class="nd_options_section"></div> 
+                
+            </div>
+
+
+
+            <!--RESPONSIVE-->
+			<div class="nd_options_section nd_options_text_align_center nd_options_display_none nd_options_display_block_responsive" style="display:none;">
+			    <div class="nd_options_section nd_options_height_20"></div>
+			    
+			    <a class="nd_options_display_inline_block" href="https://www.iwocnigeria.org"><img alt="" class="nd_options_float_left" width="213" src="https://iwocnigeria.org/wp-content/uploads/2025/06/full-IWOC-Logo.png"></a> 
+				
+				<div class="nd_options_section nd_options_height_10"></div>
+
+				<div class="nd_options_section">
+			        <a class="nd_options_open_navigation_2_sidebar_content nd_options_open_navigation_2_sidebar_content" href="#">
+			            <img alt="" class="" width="25" src="https://www.iwocnigeria.org/wp-content/plugins/nd-shortcodes/addons/customizer/header/header-2/img/icon-menu.svg">
+			        </a>
+			    </div>
+
+			    <div class="nd_options_section nd_options_height_20"></div>
+			</div>
+			<!--RESPONSIVE-->
+
+
+        
+        </div>
+        <!--end container-->
+
+    </div>
+
+
+</div>
+<!--END navigation-->
+
+
+
+
+<!--START STICKY-->
+
+
+	<!--START js-->
+	<script type="text/javascript">
+        //<![CDATA[
+
+        jQuery(window).scroll(function () {
+            nd_options_add_class_scroll();
+        });
+
+        nd_options_add_class_scroll();
+
+        function nd_options_add_class_scroll() {
+            if (jQuery(window).scrollTop() > 1000) {
+                jQuery('#nd_options_navigation_2_sticky_container').addClass('nd_options_navigation_2_sticky_move_down');
+                jQuery('#nd_options_navigation_2_sticky_container').removeClass('nd_options_navigation_2_sticky_move_up');
+            } else {
+                jQuery('#nd_options_navigation_2_sticky_container').addClass('nd_options_navigation_2_sticky_move_up');
+                jQuery('#nd_options_navigation_2_sticky_container').removeClass('nd_options_navigation_2_sticky_move_down');
+            }
+        }
+
+        //]]>
+    </script>
+
+
+	<style>
+	#nd_options_navigation_2_sticky_container{ -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; -ms-transition: all 0.8s ease; transition: all 0.8s ease;}
+	.nd_options_navigation_2_sticky_move_down{ margin-top: 0px; }
+	.nd_options_navigation_2_sticky_move_up{ margin-top: 0px; }
+	</style>
+
+
+	<!--START navigation-->
+	<div id="nd_options_navigation_2_sticky_container" class="nd_options_z_index_10 nd_options_navigation_2_sticky_move_up nd_options_display_none_all_responsive">
+
+	    <div class="nd_options_section">
+
+	    	<div style="height: 20px;" class="nd_options_section"></div> 
+
+			<div style="top:78px;margin-top: -6%;padding-left:240px;" class="nd_options_navigation_2 nd_options_navigation_type nd_options_text_align_center nd_options_display_none_all_responsive">
+			    
+		    	<div class="nd_options_display_inline_block">
+		        	<div class="menu-main-menu-container" style="line-height:65px !important;"><ul id="menu-main-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22"><a href="BuyTickets.aspx">Home</a></li>
+	<%--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="#">About Us</a>
+<ul class="sub-menu"></ul></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.iwocnigeria.org/our-history/">Our History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.iwocnigeria.org/sponsors-donors/">Sponsors &#038; Donors 2023</a></li>
+</ul>
+</li>--%>
+<%--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.iwocnigeria.org/charities/">Charities 2023</a></li>--%>
+<%--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.iwocnigeria.org/events/">Events</a></li>--%>
+<%--<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4053"><a href="https://www.iwocnigeria.org/gallery/">Gallery</a></li>--%>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="DownloadTickets.aspx">Download Ticket</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="Contact.aspx" aria-current="page">Contact Us</a></li>
+</ul></div>		    	</div>
+
+			</div> 
+
+			<div style="height: 0px;" class="nd_options_section"></div> 
+
+	    </div>
+
+
+	</div>
+	<!--END navigation-->
+
+
+<!--END STICKY-->
+
+
+
+
+
+
+	
+
+
+	<div id="nd_options_page_header_img_layout_4" class="nd_options_section nd_options_background_size_cover nd_options_background_position_center_top" style="height: 286px;background-size: cover;background-repeat: no-repeat;
+background-image:url(Images/homepage_new.jpg);">
+
+    <div class="nd_options_section nd_options_bg_greydark_alpha_2">
+
+        <!--start nd_options_container-->
+        <div class="nd_options_container nd_options_clearfix">
+
+
+            <div id="nd_options_page_header_image_space_top" class="nd_options_section nd_options_height_130"></div>
+
+            <div class="nd_options_section nd_options_padding_15 nd_options_box_sizing_border_box">
+
+                <h1 class="nd_options_color_white nd_options_font_size_40 nd_options_font_size_40_all_iphone nd_options_line_height_40_all_iphone nd_options_first_font"></h1>
+
+            </div>
+
+            <div id="nd_options_page_header_image_space_bottom" class="nd_options_section nd_options_height_130"></div>                
+
+        </div>
+        <!--end container-->
+
+    </div>
+
+</div>
+
+
+
+
+
+<!--page margin-->
+
+<!--start nd_options_container-->
+<div class="nd_options_container nd_options_padding_0_15 nd_options_box_sizing_border_box nd_options_clearfix" >
+
+		        
+	        <!--post-->
+	        <div style="float:left; width:100%;" id="post-15" class="post-15 page type-page status-publish hentry">
+
+	       		<!--automatic title-->
+	        		        	
+	            <!--start content-->
+	            <div class="vc_row wpb_row vc_row-fluid vc_custom_1492593618245 mpc-row" style="background-color:white;">
+				<div class="wpb_column vc_column_container vc_col-sm-3 mpc-column">
+					<div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div>
+				<div class="wpb_column vc_column_container vc_col-sm-6 mpc-column">
+					<div class="vc_column-inner ">
+					<div class="wpb_wrapper">
+						<%--<div style="background-color:; height: 20px;" class="nicdark_section  "></div> --%>
+						<%--<h3 style="color:#727475; padding:px; text-align:; font-size:20px; line-height:20px; letter-spacing: px; font-weight:normal;" class="   nd_options_first_font ">PLAY ONLINE THIS TIME</h3>--%> 
+						<%--<div style="background-color:; height: 56px;" class="nicdark_section  "></div> --%>
+						<%--<p style="color:; padding:px; text-align:; font-size:px; line-height:px; letter-spacing: px; font-weight:;" class="    ">
+						Download Ticket </p> --%>
+						<%--<div style="background-color:; height: 20px;" class="nicdark_section  "></div>
+						<div style="background-color:; height: 20px;" class="nicdark_section  "></div>--%>
+
+    <style>
+
+    #nd_options_shortcode_cf7_5 input[type="text"],
+    #nd_options_shortcode_cf7_5 input[type="email"],
+    #nd_options_shortcode_cf7_5 input[type="url"],
+    #nd_options_shortcode_cf7_5 input[type="tel"],
+    #nd_options_shortcode_cf7_5 input[type="number"],
+    #nd_options_shortcode_cf7_5 input[type="date"],
+    #nd_options_shortcode_cf7_5 input[type="checkbox"],
+    #nd_options_shortcode_cf7_5 input[type="file"],
+    #nd_options_shortcode_cf7_5 textarea,
+    #nd_options_shortcode_cf7_5 label,
+    #nd_options_shortcode_cf7_5 select
+    {
+
+      width: 100%;
+
+    }
+
+
+    .nd_options_customizer_forms span.wpcf7-not-valid-tip,
+    .nd_options_customizer_forms .wpcf7-response-output.wpcf7-validation-errors,
+    .nd_options_customizer_forms .wpcf7-response-output.wpcf7-mail-sent-ok
+    {
+
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+
+    }
+	.table{--bs-table-bg:transparent;--bs-table-striped-color:#313131;--bs-table-striped-bg:rgba(0,0,0,0.05);--bs-table-active-color:#313131;--bs-table-active-bg:rgba(0,0,0,0.1);--bs-table-hover-color:#313131;--bs-table-hover-bg:rgba(0,0,0,0.075);width:100%;margin-bottom:1rem;color:#313131;vertical-align:top;border-color:rgba(120,130,140,0.13)}
+    </style>
+	<%--<script type="text/javascript">
+        function validateEmailInput() {
+            var emailInput = document.getElementById('<%= txtEmail.ClientID %>');
+            var regexPattern = /^[a-zA-Z0-9_.-@]+$/;
+            var isValid = regexPattern.test(emailInput.value);
+
+            if (!isValid) {
+                alert("Invalid characters in email. Please use only underscores, hyphens, numerics, dots, at signs (@), and alphanumeric characters.");
+                emailInput.value = ''; // Clear the input
+                emailInput.focus();
+            }
+        }
+
+        // Attach the validation function to the textbox's onblur event
+        var emailTextbox = document.getElementById('<%= txtEmail.ClientID %>');
+        emailTextbox.onblur = validateEmailInput;
+    </script>
+						<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+       </script>
+        <style>
+			.flex{
+				display:flex;
+				justify-content:space-between;
+			}
+			.flex-column{
+				flex-direction:column;
+			}
+             h1{
+                 color: green;
+                 text-align: center;
+             }
+            .p {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                font-size: 22px;
+            }
+            .table{--bs-table-bg:transparent;--bs-table-striped-color:#313131;--bs-table-striped-bg:rgba(0,0,0,0.05);--bs-table-active-color:#313131;--bs-table-active-bg:rgba(0,0,0,0.1);--bs-table-hover-color:#313131;--bs-table-hover-bg:rgba(0,0,0,0.075);width:100%;margin-bottom:1rem;color:#313131;vertical-align:top;border-color:rgba(120,130,140,0.13)}
+        </style>--%>
+	
+
+
+<form id="form1" runat="server">
+<div class="emov-a-data-entry-wrapper" runat="server">
+            
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        
+            
+     </div>
+</form>
+
+
+
+   <div style="background-color:; height: 20px;" class="nicdark_section  "></div></div></div></div>
+					<div class="wpb_column vc_column_container vc_col-sm-3 mpc-column"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div>
+			
+
+	    	
+</div>
+<!--end container-->
+	<br />
+<!--page margin-->
+    <div id="nd_options_page_header_img_layout_4S" class="nd_options_section nd_options_background_size_cover nd_options_background_position_center_top" <%--style="background-image:url(Images/1.jpg);"--%>>
+
+    <div class="nd_options_section nd_options_bg_greydark_alpha_2">
+		<div> 
+				<img src="Images/banner.jpeg" alt="gif image" style="width:100%;"/>
+		</div> 
+    </div>
+
+</div>
+<div id="nd_options_footer_1" style="background-color: #00000080" class="nd_options_section nd_options_text_align_center">
+    
+    <!--start container-->
+    <div class="nd_options_container nd_options_clearfix">
+        
+        <div class="nd_options_nd_options_grid_12">
+
+        	<div class="nd_options_section nd_options_height_10"></div>
+            <%--<img src="Images/NowNow-Logo-1.png" style="margin-bottom: -3%; margin-left:-85%;"/>--%>
+        	<p style="color: white;text-align: center;">Copyright © 2026, Small World Nigeria. All Rights Reserved.</p>
+
+        	<div class="nd_options_section nd_options_height_10"></div>
+
+        </div>
+
+    </div>
+    <!--end container-->
+
+</div>  
+
+</div>
+<!--END theme-->
+
+<script>				
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function () {
+            if (document.querySelectorAll('[name^=ct_checkjs]').length > 0) {
+                apbct_public_sendREST(
+                    'js_keys__get',
+                    { callback: apbct_js_keys__set_input_value }
+                )
+            }
+        }, 0)
+    })				
+</script><script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/lightbox/js/frontend/mousewheel.min.js?ver=1.0' id='mousewheel-min-js-js'></script>
+	<script type="text/javascript"  lang="js">
+        function ValidateAlpha(evt) {
+            // alert(evt.keyCode);
+            // alert(evt.which);
+            var keyCode = (evt.which) ? evt.which : evt.keyCode
+
+            if ((keyCode < 65 || keyCode > 90) && (keyCode < 97 || keyCode > 122) && keyCode != 32 && (keyCode < 222 || keyCode > 218))
+
+                return false;
+            return true;
+        }
+    </script>
+<script type='text/javascript' id='hugeit-lightbox-js-js-extra'>
+    /* <![CDATA[ */
+    var hugeit_resp_lightbox_obj = { "hugeit_lightbox_lightboxView": "view1", "hugeit_lightbox_speed_new": "600", "hugeit_lightbox_overlayClose_new": "true", "hugeit_lightbox_loop_new": "true", "hugeit_lightbox_fullwidth_effect": "false", "hugeit_lightbox_thumbs": "false", "hugeit_lightbox_showTitle": "true", "hugeit_lightbox_showDesc": "false", "hugeit_lightbox_showBorder": "false", "hugeit_lightbox_imageframe": "frame_0", "hugeit_lightbox_fullscreen_effect": "false", "hugeit_lightbox_rightclick_protection": "true", "hugeit_lightbox_arrows_hover_effect": "0", "lightbox_open_close_effect": "0", "hugeit_lightbox_view_info": "false" };
+    var hugeit_gen_resp_lightbox_obj = { "hugeit_lightbox_slideAnimationType": "effect_1", "hugeit_lightbox_overlayDuration": "150", "hugeit_lightbox_escKey_new": "false", "hugeit_lightbox_keyPress_new": "false", "hugeit_lightbox_arrows": "true", "hugeit_lightbox_mouseWheel": "false", "hugeit_lightbox_download": "false", "hugeit_lightbox_showCounter": "false", "hugeit_lightbox_nextHtml": "", "hugeit_lightbox_prevHtml": "", "hugeit_lightbox_sequence_info": "image", "hugeit_lightbox_sequenceInfo": "of", "hugeit_lightbox_width_new": "100", "hugeit_lightbox_height_new": "100", "hugeit_lightbox_videoMaxWidth": "790", "hugeit_lightbox_slideshow_new": "false", "hugeit_lightbox_slideshow_auto_new": "false", "hugeit_lightbox_slideshow_speed_new": "2500", "hugeit_lightbox_slideshow_start_new": "", "hugeit_lightbox_slideshow_stop_new": "", "hugeit_lightbox_watermark": "false", "hugeit_lightbox_socialSharing": "false", "hugeit_lightbox_facebookButton": "false", "hugeit_lightbox_twitterButton": "false", "hugeit_lightbox_googleplusButton": "false", "hugeit_lightbox_pinterestButton": "false", "hugeit_lightbox_linkedinButton": "false", "hugeit_lightbox_tumblrButton": "false", "hugeit_lightbox_redditButton": "false", "hugeit_lightbox_bufferButton": "false", "hugeit_lightbox_diggButton": "false", "hugeit_lightbox_vkButton": "false", "hugeit_lightbox_yummlyButton": "false", "hugeit_lightbox_watermark_text": "WaterMark", "hugeit_lightbox_watermark_textColor": "ffffff", "hugeit_lightbox_watermark_textFontSize": "30", "hugeit_lightbox_watermark_containerBackground": "000000", "hugeit_lightbox_watermark_containerOpacity": "90", "hugeit_lightbox_watermark_containerWidth": "300", "hugeit_lightbox_watermark_position_new": "9", "hugeit_lightbox_watermark_opacity": "70", "hugeit_lightbox_watermark_margin": "10", "hugeit_lightbox_watermark_img_src_new": "https:\/\/www.iwocnigeria.org\/wp-content\/plugins\/lightbox\/images\/No-image-found.jpg", "hugeit_lightbox_watermark_container_bg_color": "rgba(0,0,0,0.9)" };
+    var hugeit_resp_lightbox_plugins_url = "https:\/\/www.iwocnigeria.org\/wp-content\/plugins\/lightbox\/images\/image_frames\/";
+    /* ]]> */
+</script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/lightbox/js/frontend/lightbox.js?ver=1.0' id='hugeit-lightbox-js-js'></script>
+<script type='text/javascript' id='hugeit-custom-js-js-extra'>
+    /* <![CDATA[ */
+    var lightbox_type = "new_type";
+    var ajaxUrl = "https:\/\/www.iwocnigeria.org\/wp-admin\/admin-ajax.php";
+    /* ]]> */
+</script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/lightbox/js/frontend/custom.js?ver=1.0' id='hugeit-custom-js-js'></script>
+<%--<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.2' id='swv-js'></script>--%>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.iwocnigeria.org\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<%--<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.2' id='contact-form-7-js'></script>--%>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-includes/js/comment-reply.min.js?ver=6.1.1' id='comment-reply-js'></script>
+<script type='text/javascript' id='mpc-massive-vendor-script-js-extra'>
+/* <![CDATA[ */
+var _mpc_ajax = "https:\/\/www.iwocnigeria.org\/wp-admin\/admin-ajax.php";
+var _mpc_animations = "0";
+var _mpc_scroll_to_id = "1";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/mpc-massive/assets/js/mpc-vendor.min.js?ver=2.3.1' id='mpc-massive-vendor-script-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/mpc-massive/assets/js/mpc-scripts.min.js?ver=2.3.1' id='mpc-massive-script-js'></script>
+<script type='text/javascript' src='https://use.fontawesome.com/releases/v5.0.7/js/v4-shims.js?ver=6.1.1' id='clean-old-version-js'></script>
+<script type='text/javascript' src='https://use.fontawesome.com/releases/v5.0.7/js/all.js?ver=6.1.1' id='font-awesome-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' src='https://www.iwocnigeria.org/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=5.1.1' id='vc_jquery_skrollr_js-js'></script>
+<!-- start Simple Custom CSS and JS -->
+<%--<script type="text/javascript">
+$( document ).ready(function() {
+  	$('#sponsor-tabs a').click(function (e) {
+	  	e.preventDefault()
+	  	var el = this
+	  	$( "#sponsor-tabs a" ).each(function() {
+	  		if($(el).text()!==$(this).text())
+	  		{
+	  			$(this).removeClass( "active" )
+	  		}
+		});
+	  	$(this).tab('show')
+	})
+});	
+
+
+</script>--%>
+<!-- end Simple Custom CSS and JS -->
+    <script language="javascript" type="text/javascript">
+        function numeric(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && ((charCode >= 48 && charCode <= 57) || charCode == 46))
+                return true;
+            else {
+                /*alert('Please Enter Numeric values.');*/
+                return false;
+            }
+        }
+
+    </script>
+
+	
+</body>  
+</html>

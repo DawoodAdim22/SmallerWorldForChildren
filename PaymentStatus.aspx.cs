@@ -52,7 +52,7 @@ namespace SmallerWorldForChildren
                     }
 
                     string transId = dt.Rows[0]["pgTxnId"].ToString();
-                    string phone = Session["Phone"].ToString();
+                    string phone = dt.Rows[0]["MobileNo"].ToString();
 
                     string result = "";
                     string gateway = "";

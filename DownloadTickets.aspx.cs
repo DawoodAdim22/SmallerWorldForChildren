@@ -174,15 +174,26 @@ namespace SmallerWorldForChildren
             ViewState["ticketId"] = ticketId;
                 string ticketDivId = "Ticket_" + ticketId;
 
-                // ================= UI HTML =================
-                data +="<div id='" + ticketDivId + "' style='position:relative; width:558px; margin:0 auto; color:white; padding:20px;'><img src='Images/SmallerWorldPicFront.png' style='width:100%; display:block;' /><div style='position:absolute; top:0; left:0; width:100%; height:100%;'><div style='position:absolute; top:87%; left:67%; color:black; font-size:16px; font-weight:bold;'>" + ticketId + "</div><img src='Images/QRImage/" + ticketId + ".jpg' style='position:absolute; bottom:15%; left:63%; width:124px;' /></div></div><div style='display:flex; justify-content:center; gap:20px; margin:12px 0 35px;'><input type='button' value='Download' style='background:#48790e; border:none; padding:7px 45px; color:#fff; cursor:pointer;' onclick='downloadImageusingd2i('" + ticketDivId + "')' /><input type='button' value='Email Voucher' data-toggle='modal' data-target='#myModal' style='background:#ed5404; border:none; padding:7px 45px; color:#fff; cursor:pointer;' /></div><br/>";
+            // ================= UI HTML =================
+            //data +="<div id='" + ticketDivId + "' style='position:relative; width:558px; margin:0 auto; color:white; padding:20px;'><img src='Images/SmallerWorldPicFront.png' style='width:100%; display:block;' /><div style='position:absolute; top:0; left:0; width:100%; height:100%;'><div style='position:absolute; top:87%; left:67%; color:black; font-size:16px; font-weight:bold;'>" + ticketId + "</div><img src='Images/QRImage/" + ticketId + ".jpg' style='position:absolute; bottom:15%; left:63%; width:124px;' /></div></div><div style='display:flex; justify-content:center; gap:20px; margin:12px 0 35px;'><input type='button' value='Download' style='background:#48790e; border:none; padding:7px 45px; color:#fff; cursor:pointer;' onclick='downloadImageusingd2i('" + ticketDivId + "')' /><input type='button' value='Email Voucher' data-toggle='modal' data-target='#myModal' style='background:#ed5404; border:none; padding:7px 45px; color:#fff; cursor:pointer;' /></div><br/>";
+            data += "<div id='" + ticketDivId + "' style='position:relative; width:558px; margin:0 auto; color:white; padding:20px;'>"
+              + "<img src='Images/SmallerWorldPicFront.png' style='width:100%; display:block;' />"
+              + "<div style='position:absolute; top:0; left:0; width:100%; height:100%;'>"
+              + "<div style='position:absolute; top:87%; left:67%; color:black; font-size:16px; font-weight:bold;'>"
+              + ticketId + "</div>"
+              + "<img src='Images/QRImage/" + ticketId + ".jpg' style='position:absolute; bottom:15%; left:63%; width:124px;' />"
+              + "</div></div>"
+              + "<div style='display:flex; justify-content:center; gap:20px; margin:12px 0 35px;'>"
+              + "<input type='button' value='Download' style='background:#48790e; border:none; padding:7px 45px; color:#fff; cursor:pointer;' onclick=\"downloadImageusingd2i('" + ticketDivId + "')\" />"
+              + "<input type='button' value='Email Voucher' data-toggle='modal' data-target='#myModal' style='background:#ed5404; border:none; padding:7px 45px; color:#fff; cursor:pointer;' />"
+              + "</div><br/>";
 
-                // ================= GENERATE QR =================
-                GenerateQR(ticketId);
+            // ================= GENERATE QR =================
+            GenerateQR(ticketId);
 
-                // ================= PDF HTML =================
-                dataPDF += "<div id='Ticket_" + ticketId + "' style='position:relative; width:558px; margin:20px auto; color:black; padding:20px;'><img src='" + Server.MapPath("~/Images/SmallerWorldPicFront.png") + "' style='width:100%; display:block;' /><div style='position:absolute; top:72%; right:6%; color:black; font-size:16px; font-weight:bold;'>" + ticketId + "</div><img src='" + Server.MapPath("~/Images/QRImage/" + ticketId + ".jpg") + "' style='position:absolute; bottom:6%; right:6%; width:65px;' /></div><br/>";
-            
+            // ================= PDF HTML =================
+            dataPDF += "<div id='Ticket_" + ticketId + "' style='position:relative; width:558px; margin:20px auto; color:black; padding:20px;'><img src='" + Server.MapPath("~/Images/SmallerWorldPicFront.png") + "' style='width:100%; display:block;' /><div style='position:absolute; top:87%; left:67%; color:black; font-size:16px; font-weight:bold;'>" + ticketId + "</div><img src='" + Server.MapPath("~/Images/QRImage/" + ticketId + ".jpg") + "' style='position:absolute; bottom:15%; left:63%; width:124px;' /></div><br/>";
+
             data_Mail = data_Mail + "</div>";
 
             pnlEnterDetails.Visible = false;

@@ -23,18 +23,31 @@ namespace SmallerWorldForChildren
             string body = "Dear Admin,<br/><br/><table> <tbody> <tr> <td><strong>Customer Name:</strong> </td> <td>" + txtName.Text + "</td> </tr> <tr> <td><strong>Phone Number:</strong></td> <td>" + txtPhoneNo.Text + "</td> </tr> <tr> <td><strong>Email Id:</strong></td> <td>" + txtEmail.Text + "</td> </tr> <tr> <td><strong>Description:</strong></td> <td>" + txtDescription.Text + "</td> </tr> </tbody> </table><br/><br/>Thank You<br/>";
             //CommonFunction.SWSendMailTicket(txtEmail.Text.Trim(), "Contact us", txtDescription.Text , Session["dataPDF"].ToString(), Session["FilePath"].ToString());
             // string response=CommonFunction.MAilchimpSendMail(txtEmail.Text.Trim(), "Contact us", body);
-            string response = CommonFunction.SWSendMail(txtEmail.Text.Trim(), "Contact us", body);
+            //string response = CommonFunction.SWSendMail(txtEmail.Text.Trim(), "Contact us", body);
+            string response = CommonFunction.SWK_YourNotifyMail(txtEmail.Text.Trim(), "Contact Us", body, "", "");
 
-            if (response == "1")
+            if (!string.IsNullOrWhiteSpace(response) &&
+                (response.Contains("Status: OK") || response.Contains("\"status\":\"success\"")))
             {
                 WriteLog("Submit_Success", "Contact form email sent successfully.");
-                ScriptManager.RegisterStartupScript(this, GetType(), "alertScript", "swal('', 'Successfully sent', 'success', {button: 'Ok', closeOnClickOutside: false})", true);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    GetType(),
+                    "alertScript",
+                    "swal('', 'Successfully sent', 'success', {button: 'Ok', closeOnClickOutside: false})",
+                    true
+                );
             }
             else
             {
-                WriteLog("Submit_Failed", "Contact form email send failed.");
-                ScriptManager.RegisterStartupScript(this, GetType(), "alertScript", "swal('', 'Something Failed', 'error', {button: 'Ok', closeOnClickOutside: false})", true);
-
+                WriteLog("Submit_Failed", "Contact form email send failed. Response: " + response);
+                ScriptManager.RegisterStartupScript(
+                    this,
+                    GetType(),
+                    "alertScript",
+                    "swal('', 'Something Failed', 'error', {button: 'Ok', closeOnClickOutside: false})",
+                    true
+                );
             }
             txtName.Text = "";
             txtPhoneNo.Text = "";

@@ -48,6 +48,7 @@ namespace SmallerWorldForChildren
                     if (dt.Rows.Count == 0)
                     {
                         WriteLog("Request_NotFound", "No transaction mapping found for request ID: " + requestId);
+                        ShowAlert("Transaction ID not found. Please try again.", "warning");
                         return;
                     }
 
